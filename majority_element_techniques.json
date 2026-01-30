@@ -1,0 +1,9 @@
+{
+  "frontend_id": 169,
+  "title": "Majority Element",
+  "techniques": [
+    "hash map",
+    "boyer-moore voting algorithm",
+    "counting"
+  ]
+}

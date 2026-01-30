@@ -1,0 +1,9 @@
+{
+  "frontend_id": 181,
+  "title": "Employees Earning More Than Their Managers",
+  "techniques": [
+    "self join",
+    "sql comparison",
+    "inner join"
+  ]
+}

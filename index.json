@@ -1,0 +1,3753 @@
+{
+  "meta": {
+    "updated_at": "2026-01-29T08:30:59.811847+00:00",
+    "count_problems": 211,
+    "count_techniques": 305
+  },
+  "techniques": {
+    "hash map": [
+      "0001",
+      "0013",
+      "0017",
+      "0020",
+      "0030",
+      "0049",
+      "0076",
+      "0105",
+      "0106",
+      "0133",
+      "0138",
+      "0146",
+      "0149",
+      "0166",
+      "0169",
+      "0205",
+      "0208",
+      "0219"
+    ],
+    "iteration": [
+      "0001",
+      "0036",
+      "0089",
+      "0217"
+    ],
+    "linked list traversal": [
+      "0002",
+      "0019",
+      "0021",
+      "0023",
+      "0024",
+      "0061",
+      "0082",
+      "0083",
+      "0086",
+      "0092",
+      "0109",
+      "0138",
+      "0142",
+      "0147",
+      "0148",
+      "0160",
+      "0203",
+      "0206"
+    ],
+    "carry propagation": [
+      "0002",
+      "0043",
+      "0066",
+      "0067"
+    ],
+    "digit arithmetic": [
+      "0002"
+    ],
+    "sliding window": [
+      "0003",
+      "0028",
+      "0030",
+      "0053",
+      "0076",
+      "0187",
+      "0209",
+      "0219"
+    ],
+    "hash set": [
+      "0003",
+      "0018",
+      "0036",
+      "0127",
+      "0128",
+      "0139",
+      "0140",
+      "0187",
+      "0202",
+      "0217"
+    ],
+    "two pointers": [
+      "0003",
+      "0005",
+      "0011",
+      "0015",
+      "0016",
+      "0018",
+      "0019",
+      "0025",
+      "0026",
+      "0027",
+      "0032",
+      "0042",
+      "0075",
+      "0076",
+      "0080",
+      "0082",
+      "0086",
+      "0088",
+      "0125",
+      "0141",
+      "0143",
+      "0151",
+      "0160",
+      "0167",
+      "0209",
+      "0214"
+    ],
+    "binary search": [
+      "0004",
+      "0029",
+      "0033",
+      "0034",
+      "0035",
+      "0069",
+      "0074",
+      "0081",
+      "0108",
+      "0153",
+      "0154",
+      "0162"
+    ],
+    "divide and conquer": [
+      "0004",
+      "0023",
+      "0105",
+      "0106",
+      "0108",
+      "0109",
+      "0148",
+      "0154",
+      "0162"
+    ],
+    "partitioning": [
+      "0004",
+      "0215"
+    ],
+    "sorted array manipulation": [
+      "0004"
+    ],
+    "expand around center": [
+      "0005",
+      "0132"
+    ],
+    "string manipulation": [
+      "0005",
+      "0022",
+      "0038",
+      "0043",
+      "0049",
+      "0067",
+      "0068",
+      "0072",
+      "0115",
+      "0131",
+      "0140",
+      "0151",
+      "0166",
+      "0168",
+      "0171",
+      "0194"
+    ],
+    "simulation": [
+      "0006"
+    ],
+    "array manipulation": [
+      "0006",
+      "0031",
+      "0041",
+      "0046",
+      "0051",
+      "0057",
+      "0060"
+    ],
+    "index calculation": [
+      "0006"
+    ],
+    "digit manipulation": [
+      "0007",
+      "0066",
+      "0202"
+    ],
+    "overflow detection": [
+      "0007"
+    ],
+    "mathematical operations": [
+      "0007"
+    ],
+    "string parsing": [
+      "0008",
+      "0065",
+      "0071",
+      "0091",
+      "0093",
+      "0165"
+    ],
+    "character validation": [
+      "0008"
+    ],
+    "integer conversion": [
+      "0008",
+      "0165"
+    ],
+    "overflow handling": [
+      "0008"
+    ],
+    "state machine": [
+      "0008",
+      "0123",
+      "0188"
+    ],
+    "mathematical reversal": [
+      "0009"
+    ],
+    "digit extraction": [
+      "0009"
+    ],
+    "comparison": [
+      "0009"
+    ],
+    "dynamic programming": [
+      "0010",
+      "0032",
+      "0042",
+      "0044",
+      "0053",
+      "0055",
+      "0062",
+      "0063",
+      "0064",
+      "0070",
+      "0072",
+      "0085",
+      "0087",
+      "0091",
+      "0095",
+      "0096",
+      "0097",
+      "0115",
+      "0118",
+      "0119",
+      "0120",
+      "0122",
+      "0123",
+      "0124",
+      "0131",
+      "0132",
+      "0139",
+      "0140",
+      "0152",
+      "0174",
+      "0188",
+      "0198",
+      "0213"
+    ],
+    "memoization": [
+      "0010",
+      "0044",
+      "0062",
+      "0063",
+      "0070",
+      "0072",
+      "0087",
+      "0091",
+      "0095",
+      "0097",
+      "0115",
+      "0120",
+      "0140",
+      "0188",
+      "0198"
+    ],
+    "string matching": [
+      "0010",
+      "0028",
+      "0044",
+      "0097"
+    ],
+    "recursion": [
+      "0010",
+      "0017",
+      "0022",
+      "0025",
+      "0037",
+      "0038",
+      "0039",
+      "0040",
+      "0044",
+      "0046",
+      "0050",
+      "0051",
+      "0052",
+      "0077",
+      "0078",
+      "0087",
+      "0089",
+      "0094",
+      "0095",
+      "0096",
+      "0098",
+      "0100",
+      "0101",
+      "0104",
+      "0105",
+      "0106",
+      "0108",
+      "0109",
+      "0110",
+      "0112",
+      "0114",
+      "0120",
+      "0124",
+      "0131",
+      "0133",
+      "0144",
+      "0145",
+      "0198",
+      "0216"
+    ],
+    "greedy algorithm": [
+      "0011",
+      "0012",
+      "0045",
+      "0055",
+      "0056",
+      "0068",
+      "0084",
+      "0121",
+      "0122",
+      "0134",
+      "0135",
+      "0179"
+    ],
+    "area calculation": [
+      "0011",
+      "0084"
+    ],
+    "mapping arrays": [
+      "0012"
+    ],
+    "iterative decomposition": [
+      "0012"
+    ],
+    "string traversal": [
+      "0013",
+      "0014",
+      "0058"
+    ],
+    "conditional subtraction": [
+      "0013"
+    ],
+    "character comparison": [
+      "0014"
+    ],
+    "prefix matching": [
+      "0014"
+    ],
+    "sorting": [
+      "0015",
+      "0016",
+      "0018",
+      "0040",
+      "0047",
+      "0049",
+      "0056",
+      "0090",
+      "0176",
+      "0177",
+      "0192"
+    ],
+    "avoiding duplicates": [
+      "0015"
+    ],
+    "nested iteration": [
+      "0015",
+      "0149"
+    ],
+    "brute force optimization": [
+      "0016"
+    ],
+    "backtracking": [
+      "0017",
+      "0022",
+      "0037",
+      "0039",
+      "0040",
+      "0046",
+      "0047",
+      "0051",
+      "0052",
+      "0077",
+      "0078",
+      "0079",
+      "0090",
+      "0093",
+      "0113",
+      "0126",
+      "0131",
+      "0140",
+      "0211",
+      "0212",
+      "0216"
+    ],
+    "nested loops": [
+      "0018"
+    ],
+    "dummy head node": [
+      "0019",
+      "0021",
+      "0203"
+    ],
+    "one pass algorithm": [
+      "0019"
+    ],
+    "stack": [
+      "0020",
+      "0032",
+      "0071",
+      "0085",
+      "0094",
+      "0103",
+      "0144",
+      "0145",
+      "0150",
+      "0155",
+      "0173"
+    ],
+    "character matching": [
+      "0020"
+    ],
+    "iterative merging": [
+      "0021"
+    ],
+    "merge sort": [
+      "0023",
+      "0088",
+      "0148"
+    ],
+    "node manipulation": [
+      "0024"
+    ],
+    "iterative approach": [
+      "0024",
+      "0025",
+      "0154"
+    ],
+    "linked list reversal": [
+      "0025"
+    ],
+    "constant space manipulation": [
+      "0025"
+    ],
+    "in-place modification": [
+      "0026",
+      "0027",
+      "0073",
+      "0080",
+      "0083",
+      "0088",
+      "0114"
+    ],
+    "sorted array traversal": [
+      "0026",
+      "0080"
+    ],
+    "brute force": [
+      "0028"
+    ],
+    "bit manipulation": [
+      "0029",
+      "0050",
+      "0052",
+      "0078",
+      "0089",
+      "0136",
+      "0137",
+      "0190",
+      "0191",
+      "0201"
+    ],
+    "mathematical simulation": [
+      "0029"
+    ],
+    "substring manipulation": [
+      "0030"
+    ],
+    "frequency counting": [
+      "0030"
+    ],
+    "lexicographic ordering": [
+      "0031"
+    ],
+    "in-place algorithm": [
+      "0031"
+    ],
+    "constant space": [
+      "0031",
+      "0041",
+      "0073",
+      "0075",
+      "0167"
+    ],
+    "modified binary search": [
+      "0033",
+      "0034",
+      "0081"
+    ],
+    "pivot detection": [
+      "0033",
+      "0081"
+    ],
+    "array traversal": [
+      "0034",
+      "0035",
+      "0042",
+      "0055",
+      "0066",
+      "0122",
+      "0162",
+      "0164",
+      "0219"
+    ],
+    "sorted array": [
+      "0035",
+      "0153",
+      "0167"
+    ],
+    "matrix traversal": [
+      "0036",
+      "0054",
+      "0059",
+      "0073",
+      "0074",
+      "0079",
+      "0130"
+    ],
+    "constraint propagation": [
+      "0037"
+    ],
+    "run-length encoding": [
+      "0038"
+    ],
+    "dfs": [
+      "0039",
+      "0079",
+      "0098",
+      "0129",
+      "0207",
+      "0210",
+      "0211"
+    ],
+    "combinatorial search": [
+      "0039"
+    ],
+    "pruning duplicates": [
+      "0040"
+    ],
+    "cyclic sort": [
+      "0041"
+    ],
+    "preprocessing": [
+      "0042",
+      "0132"
+    ],
+    "elementary math": [
+      "0043"
+    ],
+    "array simulation": [
+      "0043"
+    ],
+    "breadth-first search": [
+      "0045",
+      "0102",
+      "0103",
+      "0107",
+      "0111",
+      "0116",
+      "0117",
+      "0126",
+      "0127",
+      "0130",
+      "0199",
+      "0200"
+    ],
+    "level traversal": [
+      "0045"
+    ],
+    "duplicate skipping": [
+      "0047",
+      "0090"
+    ],
+    "matrix manipulation": [
+      "0048"
+    ],
+    "transpose": [
+      "0048"
+    ],
+    "reverse rows": [
+      "0048"
+    ],
+    "exponentiation by squaring": [
+      "0050"
+    ],
+    "constraint checking": [
+      "0051",
+      "0052",
+      "0216"
+    ],
+    "kadane's algorithm": [
+      "0053"
+    ],
+    "boundary tracking": [
+      "0054",
+      "0059"
+    ],
+    "direction simulation": [
+      "0054",
+      "0059"
+    ],
+    "interval manipulation": [
+      "0056"
+    ],
+    "interval merging": [
+      "0057"
+    ],
+    "linear scan": [
+      "0057"
+    ],
+    "reverse iteration": [
+      "0058"
+    ],
+    "character checking": [
+      "0058"
+    ],
+    "factorial calculation": [
+      "0060"
+    ],
+    "mathematical indexing": [
+      "0060"
+    ],
+    "modulo arithmetic": [
+      "0061",
+      "0168"
+    ],
+    "pointer manipulation": [
+      "0061",
+      "0092"
+    ],
+    "combinatorics": [
+      "0062"
+    ],
+    "grid traversal": [
+      "0063",
+      "0064"
+    ],
+    "optimal substructure": [
+      "0064"
+    ],
+    "finite state machine": [
+      "0065",
+      "0137"
+    ],
+    "character classification": [
+      "0065"
+    ],
+    "sign handling": [
+      "0065"
+    ],
+    "exponent validation": [
+      "0065"
+    ],
+    "bitwise operations": [
+      "0067"
+    ],
+    "array iteration": [
+      "0068"
+    ],
+    "space distribution": [
+      "0068"
+    ],
+    "mathematical computation": [
+      "0069",
+      "0118"
+    ],
+    "integer arithmetic": [
+      "0069"
+    ],
+    "fibonacci sequence": [
+      "0070"
+    ],
+    "path normalization": [
+      "0071"
+    ],
+    "row-column tracking": [
+      "0073"
+    ],
+    "coordinate mapping": [
+      "0074"
+    ],
+    "three-way partitioning": [
+      "0075"
+    ],
+    "one-pass algorithm": [
+      "0075"
+    ],
+    "combinatorial generation": [
+      "0077"
+    ],
+    "visited tracking": [
+      "0079"
+    ],
+    "handle duplicates": [
+      "0081"
+    ],
+    "dummy node": [
+      "0082",
+      "0092"
+    ],
+    "sorted list manipulation": [
+      "0082"
+    ],
+    "monotonic stack": [
+      "0084",
+      "0085"
+    ],
+    "histogram": [
+      "0085"
+    ],
+    "dummy head": [
+      "0086"
+    ],
+    "substring comparison": [
+      "0087"
+    ],
+    "sublist reversal": [
+      "0092"
+    ],
+    "constraint validation": [
+      "0093"
+    ],
+    "binary tree": [
+      "0094",
+      "0144",
+      "0145"
+    ],
+    "inorder traversal": [
+      "0094",
+      "0099"
+    ],
+    "tree construction": [
+      "0095",
+      "0108"
+    ],
+    "catalan numbers": [
+      "0096"
+    ],
+    "tree traversal": [
+      "0098",
+      "0100",
+      "0101",
+      "0104",
+      "0105",
+      "0106",
+      "0110",
+      "0111",
+      "0112",
+      "0113",
+      "0114",
+      "0124",
+      "0129",
+      "0208"
+    ],
+    "range validation": [
+      "0098"
+    ],
+    "binary search tree property": [
+      "0099"
+    ],
+    "tree manipulation": [
+      "0099",
+      "0116"
+    ],
+    "depth-first search": [
+      "0100",
+      "0112",
+      "0113",
+      "0133",
+      "0200",
+      "0212"
+    ],
+    "mirror comparison": [
+      "0101"
+    ],
+    "queue": [
+      "0102",
+      "0103",
+      "0107",
+      "0116",
+      "0117",
+      "0126",
+      "0127",
+      "0199"
+    ],
+    "level-by-level traversal": [
+      "0102"
+    ],
+    "level order traversal": [
+      "0103",
+      "0107"
+    ],
+    "depth calculation": [
+      "0104"
+    ],
+    "reverse result": [
+      "0107"
+    ],
+    "binary search tree construction": [
+      "0109"
+    ],
+    "fast slow pointer": [
+      "0109",
+      "0141"
+    ],
+    "height calculation": [
+      "0110"
+    ],
+    "balanced condition check": [
+      "0110"
+    ],
+    "level-order traversal": [
+      "0111",
+      "0116",
+      "0117",
+      "0199"
+    ],
+    "path tracking": [
+      "0113"
+    ],
+    "preorder traversal": [
+      "0114",
+      "0144"
+    ],
+    "linked list": [
+      "0117"
+    ],
+    "nested arrays": [
+      "0118"
+    ],
+    "mathematical formula": [
+      "0119"
+    ],
+    "space optimization": [
+      "0119",
+      "0135"
+    ],
+    "bottom-up approach": [
+      "0120",
+      "0174"
+    ],
+    "top-down approach": [
+      "0120"
+    ],
+    "single pass": [
+      "0121"
+    ],
+    "track minimum": [
+      "0121"
+    ],
+    "forward and backward pass": [
+      "0123"
+    ],
+    "post-order traversal": [
+      "0124"
+    ],
+    "string preprocessing": [
+      "0125"
+    ],
+    "character filtering": [
+      "0125"
+    ],
+    "graph traversal": [
+      "0126",
+      "0127",
+      "0133",
+      "0200"
+    ],
+    "adjacency list": [
+      "0127",
+      "0207",
+      "0210"
+    ],
+    "constant time lookup": [
+      "0128"
+    ],
+    "iterative expansion": [
+      "0128"
+    ],
+    "path accumulation": [
+      "0129"
+    ],
+    "boundary detection": [
+      "0130"
+    ],
+    "palindrome detection": [
+      "0132",
+      "0214"
+    ],
+    "prefix sum": [
+      "0134",
+      "0209"
+    ],
+    "circular array": [
+      "0134"
+    ],
+    "two pass": [
+      "0135"
+    ],
+    "left to right scan": [
+      "0135"
+    ],
+    "right to left scan": [
+      "0135"
+    ],
+    "peak valley counting": [
+      "0135"
+    ],
+    "xor operation": [
+      "0136"
+    ],
+    "digital logic": [
+      "0137"
+    ],
+    "two-pass algorithm": [
+      "0138"
+    ],
+    "substring matching": [
+      "0139"
+    ],
+    "cycle detection": [
+      "0141",
+      "0142",
+      "0202",
+      "0210"
+    ],
+    "fast slow pointers": [
+      "0142"
+    ],
+    "linked list manipulation": [
+      "0143"
+    ],
+    "reverse linked list": [
+      "0143"
+    ],
+    "merge linked lists": [
+      "0143"
+    ],
+    "iterative dfs": [
+      "0144",
+      "0173"
+    ],
+    "postorder traversal": [
+      "0145"
+    ],
+    "doubly linked list": [
+      "0146"
+    ],
+    "dummy head tail": [
+      "0146"
+    ],
+    "insertion sort": [
+      "0147"
+    ],
+    "in-place sorting": [
+      "0147"
+    ],
+    "constant space optimization": [
+      "0148"
+    ],
+    "slope calculation": [
+      "0149"
+    ],
+    "greatest common divisor": [
+      "0149"
+    ],
+    "coordinate geometry": [
+      "0149"
+    ],
+    "postfix evaluation": [
+      "0150"
+    ],
+    "arithmetic operations": [
+      "0150"
+    ],
+    "split and join": [
+      "0151"
+    ],
+    "in-place reversal": [
+      "0151"
+    ],
+    "prefix product": [
+      "0152"
+    ],
+    "tracking min/max": [
+      "0152"
+    ],
+    "rotation detection": [
+      "0153"
+    ],
+    "duplicate handling": [
+      "0154"
+    ],
+    "auxiliary space": [
+      "0155"
+    ],
+    "constant time operations": [
+      "0155"
+    ],
+    "length calculation": [
+      "0160"
+    ],
+    "bucket sort": [
+      "0164"
+    ],
+    "linear time sorting": [
+      "0164"
+    ],
+    "pigeonhole principle": [
+      "0164"
+    ],
+    "minimum maximum tracking": [
+      "0164"
+    ],
+    "iterative comparison": [
+      "0165"
+    ],
+    "zero padding": [
+      "0165"
+    ],
+    "long division": [
+      "0166"
+    ],
+    "modular arithmetic": [
+      "0166",
+      "0189"
+    ],
+    "base conversion": [
+      "0168",
+      "0171"
+    ],
+    "boyer-moore voting algorithm": [
+      "0169"
+    ],
+    "counting": [
+      "0169"
+    ],
+    "mathematical calculation": [
+      "0171"
+    ],
+    "mathematical analysis": [
+      "0172"
+    ],
+    "counting factors": [
+      "0172"
+    ],
+    "division by powers": [
+      "0172"
+    ],
+    "in-order traversal": [
+      "0173"
+    ],
+    "binary search tree": [
+      "0173"
+    ],
+    "2d grid traversal": [
+      "0174"
+    ],
+    "minimum path calculation": [
+      "0174"
+    ],
+    "sql join": [
+      "0175",
+      "0184"
+    ],
+    "left outer join": [
+      "0175"
+    ],
+    "relational database": [
+      "0175"
+    ],
+    "sql aggregation": [
+      "0176",
+      "0178"
+    ],
+    "distinct filtering": [
+      "0176"
+    ],
+    "conditional selection": [
+      "0176"
+    ],
+    "limit offset": [
+      "0176"
+    ],
+    "distinct values": [
+      "0177"
+    ],
+    "limit/offset": [
+      "0177"
+    ],
+    "conditional logic": [
+      "0177"
+    ],
+    "window function": [
+      "0178",
+      "0184",
+      "0185"
+    ],
+    "dense rank": [
+      "0178",
+      "0185"
+    ],
+    "order by": [
+      "0178"
+    ],
+    "custom sorting": [
+      "0179"
+    ],
+    "string concatenation": [
+      "0179"
+    ],
+    "window functions": [
+      "0180",
+      "0196"
+    ],
+    "lag function": [
+      "0180"
+    ],
+    "group by": [
+      "0180",
+      "0182",
+      "0184",
+      "0185"
+    ],
+    "count aggregation": [
+      "0180",
+      "0182"
+    ],
+    "self join": [
+      "0181",
+      "0197"
+    ],
+    "sql comparison": [
+      "0181"
+    ],
+    "inner join": [
+      "0181"
+    ],
+    "having clause": [
+      "0182"
+    ],
+    "left join": [
+      "0183"
+    ],
+    "null check": [
+      "0183"
+    ],
+    "sql query": [
+      "0183"
+    ],
+    "max aggregation": [
+      "0184"
+    ],
+    "join": [
+      "0185"
+    ],
+    "substring extraction": [
+      "0187"
+    ],
+    "array reversal": [
+      "0189"
+    ],
+    "in-place rotation": [
+      "0189"
+    ],
+    "loop": [
+      "0190"
+    ],
+    "shift operations": [
+      "0190",
+      "0201"
+    ],
+    "loop through bits": [
+      "0191"
+    ],
+    "modulo operation": [
+      "0191"
+    ],
+    "text processing": [
+      "0192",
+      "0193"
+    ],
+    "associative arrays": [
+      "0192"
+    ],
+    "parsing": [
+      "0192"
+    ],
+    "regex pattern matching": [
+      "0193"
+    ],
+    "bash scripting": [
+      "0193"
+    ],
+    "file parsing": [
+      "0194"
+    ],
+    "array transposition": [
+      "0194"
+    ],
+    "awk scripting": [
+      "0194"
+    ],
+    "file reading": [
+      "0195"
+    ],
+    "line counting": [
+      "0195"
+    ],
+    "stream processing": [
+      "0195"
+    ],
+    "sql delete": [
+      "0196"
+    ],
+    "row_number": [
+      "0196"
+    ],
+    "partition by": [
+      "0196"
+    ],
+    "ordering": [
+      "0196"
+    ],
+    "date comparison": [
+      "0197"
+    ],
+    "sql": [
+      "0197"
+    ],
+    "matrix iteration": [
+      "0200"
+    ],
+    "flood fill": [
+      "0200"
+    ],
+    "common prefix": [
+      "0201"
+    ],
+    "node removal": [
+      "0203"
+    ],
+    "sieve of eratosthenes": [
+      "0204"
+    ],
+    "array marking": [
+      "0204"
+    ],
+    "iteration optimization": [
+      "0204"
+    ],
+    "character mapping": [
+      "0205"
+    ],
+    "bijection check": [
+      "0205"
+    ],
+    "iterative reversal": [
+      "0206"
+    ],
+    "recursive reversal": [
+      "0206"
+    ],
+    "topological sort": [
+      "0207",
+      "0210"
+    ],
+    "graph cycle detection": [
+      "0207"
+    ],
+    "trie data structure": [
+      "0208",
+      "0212"
+    ],
+    "graph representation": [
+      "0210"
+    ],
+    "trie": [
+      "0211"
+    ],
+    "pruning optimization": [
+      "0212"
+    ],
+    "circular array handling": [
+      "0213"
+    ],
+    "house robbing logic": [
+      "0213"
+    ],
+    "kmp algorithm": [
+      "0214"
+    ],
+    "string reversal": [
+      "0214"
+    ],
+    "rolling hash": [
+      "0214"
+    ],
+    "quickselect": [
+      "0215"
+    ],
+    "heap": [
+      "0215",
+      "0218"
+    ],
+    "sweep line": [
+      "0218"
+    ],
+    "priority queue": [
+      "0218"
+    ],
+    "coordinate compression": [
+      "0218"
+    ],
+    "event processing": [
+      "0218"
+    ]
+  },
+  "problems": {
+    "0001": {
+      "frontend_id": "0001",
+      "title": "Two Sum",
+      "slug": "two-sum",
+      "difficulty": "Easy",
+      "techniques": [
+        "hash map",
+        "iteration"
+      ]
+    },
+    "0002": {
+      "frontend_id": "0002",
+      "title": "Add Two Numbers",
+      "slug": "add-two-numbers",
+      "difficulty": "Medium",
+      "techniques": [
+        "linked list traversal",
+        "carry propagation",
+        "digit arithmetic"
+      ]
+    },
+    "0003": {
+      "frontend_id": "0003",
+      "title": "Longest Substring Without Repeating Characters",
+      "slug": "longest-substring-without-repeating-characters",
+      "difficulty": "Medium",
+      "techniques": [
+        "sliding window",
+        "hash set",
+        "two pointers"
+      ]
+    },
+    "0004": {
+      "frontend_id": "0004",
+      "title": "Median of Two Sorted Arrays",
+      "slug": "median-of-two-sorted-arrays",
+      "difficulty": "Hard",
+      "techniques": [
+        "binary search",
+        "divide and conquer",
+        "partitioning",
+        "sorted array manipulation"
+      ]
+    },
+    "0005": {
+      "frontend_id": "0005",
+      "title": "Longest Palindromic Substring",
+      "slug": "longest-palindromic-substring",
+      "difficulty": "Medium",
+      "techniques": [
+        "expand around center",
+        "two pointers",
+        "string manipulation"
+      ]
+    },
+    "0006": {
+      "frontend_id": "0006",
+      "title": "Zigzag Conversion",
+      "slug": "zigzag-conversion",
+      "difficulty": "Medium",
+      "techniques": [
+        "simulation",
+        "array manipulation",
+        "index calculation"
+      ]
+    },
+    "0007": {
+      "frontend_id": "0007",
+      "title": "Reverse Integer",
+      "slug": "reverse-integer",
+      "difficulty": "Medium",
+      "techniques": [
+        "digit manipulation",
+        "overflow detection",
+        "mathematical operations"
+      ]
+    },
+    "0008": {
+      "frontend_id": "0008",
+      "title": "String to Integer (atoi)",
+      "slug": "string-to-integer-atoi",
+      "difficulty": "Medium",
+      "techniques": [
+        "string parsing",
+        "character validation",
+        "integer conversion",
+        "overflow handling",
+        "state machine"
+      ]
+    },
+    "0009": {
+      "frontend_id": "0009",
+      "title": "Palindrome Number",
+      "slug": "palindrome-number",
+      "difficulty": "Easy",
+      "techniques": [
+        "mathematical reversal",
+        "digit extraction",
+        "comparison"
+      ]
+    },
+    "0010": {
+      "frontend_id": "0010",
+      "title": "Regular Expression Matching",
+      "slug": "regular-expression-matching",
+      "difficulty": "Hard",
+      "techniques": [
+        "dynamic programming",
+        "memoization",
+        "string matching",
+        "recursion"
+      ]
+    },
+    "0011": {
+      "frontend_id": "0011",
+      "title": "Container With Most Water",
+      "slug": "container-with-most-water",
+      "difficulty": "Medium",
+      "techniques": [
+        "two pointers",
+        "greedy algorithm",
+        "area calculation"
+      ]
+    },
+    "0012": {
+      "frontend_id": "0012",
+      "title": "Integer to Roman",
+      "slug": "integer-to-roman",
+      "difficulty": "Medium",
+      "techniques": [
+        "greedy algorithm",
+        "mapping arrays",
+        "iterative decomposition"
+      ]
+    },
+    "0013": {
+      "frontend_id": "0013",
+      "title": "Roman to Integer",
+      "slug": "roman-to-integer",
+      "difficulty": "Easy",
+      "techniques": [
+        "hash map",
+        "string traversal",
+        "conditional subtraction"
+      ]
+    },
+    "0014": {
+      "frontend_id": "0014",
+      "title": "Longest Common Prefix",
+      "slug": "longest-common-prefix",
+      "difficulty": "Easy",
+      "techniques": [
+        "string traversal",
+        "character comparison",
+        "prefix matching"
+      ]
+    },
+    "0015": {
+      "frontend_id": "0015",
+      "title": "3Sum",
+      "slug": "3sum",
+      "difficulty": "Medium",
+      "techniques": [
+        "sorting",
+        "two pointers",
+        "avoiding duplicates",
+        "nested iteration"
+      ]
+    },
+    "0016": {
+      "frontend_id": "0016",
+      "title": "3Sum Closest",
+      "slug": "3sum-closest",
+      "difficulty": "Medium",
+      "techniques": [
+        "sorting",
+        "two pointers",
+        "brute force optimization"
+      ]
+    },
+    "0017": {
+      "frontend_id": "0017",
+      "title": "Letter Combinations of a Phone Number",
+      "slug": "letter-combinations-of-a-phone-number",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "recursion",
+        "hash map"
+      ]
+    },
+    "0018": {
+      "frontend_id": "0018",
+      "title": "4Sum",
+      "slug": "4sum",
+      "difficulty": "Medium",
+      "techniques": [
+        "sorting",
+        "two pointers",
+        "hash set",
+        "nested loops"
+      ]
+    },
+    "0019": {
+      "frontend_id": "0019",
+      "title": "Remove Nth Node From End of List",
+      "slug": "remove-nth-node-from-end-of-list",
+      "difficulty": "Medium",
+      "techniques": [
+        "linked list traversal",
+        "two pointers",
+        "dummy head node",
+        "one pass algorithm"
+      ]
+    },
+    "0020": {
+      "frontend_id": "0020",
+      "title": "Valid Parentheses",
+      "slug": "valid-parentheses",
+      "difficulty": "Easy",
+      "techniques": [
+        "stack",
+        "hash map",
+        "character matching"
+      ]
+    },
+    "0021": {
+      "frontend_id": "0021",
+      "title": "Merge Two Sorted Lists",
+      "slug": "merge-two-sorted-lists",
+      "difficulty": "Easy",
+      "techniques": [
+        "linked list traversal",
+        "iterative merging",
+        "dummy head node"
+      ]
+    },
+    "0022": {
+      "frontend_id": "0022",
+      "title": "Generate Parentheses",
+      "slug": "generate-parentheses",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "recursion",
+        "string manipulation"
+      ]
+    },
+    "0023": {
+      "frontend_id": "0023",
+      "title": "Merge k Sorted Lists",
+      "slug": "merge-k-sorted-lists",
+      "difficulty": "Hard",
+      "techniques": [
+        "divide and conquer",
+        "merge sort",
+        "linked list traversal"
+      ]
+    },
+    "0024": {
+      "frontend_id": "0024",
+      "title": "Swap Nodes in Pairs",
+      "slug": "swap-nodes-in-pairs",
+      "difficulty": "Medium",
+      "techniques": [
+        "linked list traversal",
+        "node manipulation",
+        "iterative approach"
+      ]
+    },
+    "0025": {
+      "frontend_id": "0025",
+      "title": "Reverse Nodes in k-Group",
+      "slug": "reverse-nodes-in-k-group",
+      "difficulty": "Hard",
+      "techniques": [
+        "linked list reversal",
+        "two pointers",
+        "recursion",
+        "iterative approach",
+        "constant space manipulation"
+      ]
+    },
+    "0026": {
+      "frontend_id": "0026",
+      "title": "Remove Duplicates from Sorted Array",
+      "slug": "remove-duplicates-from-sorted-array",
+      "difficulty": "Easy",
+      "techniques": [
+        "two pointers",
+        "in-place modification",
+        "sorted array traversal"
+      ]
+    },
+    "0027": {
+      "frontend_id": "0027",
+      "title": "Remove Element",
+      "slug": "remove-element",
+      "difficulty": "Easy",
+      "techniques": [
+        "two pointers",
+        "in-place modification"
+      ]
+    },
+    "0028": {
+      "frontend_id": "0028",
+      "title": "Find the Index of the First Occurrence in a String",
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "difficulty": "Easy",
+      "techniques": [
+        "string matching",
+        "sliding window",
+        "brute force"
+      ]
+    },
+    "0029": {
+      "frontend_id": "0029",
+      "title": "Divide Two Integers",
+      "slug": "divide-two-integers",
+      "difficulty": "Medium",
+      "techniques": [
+        "bit manipulation",
+        "binary search",
+        "mathematical simulation"
+      ]
+    },
+    "0030": {
+      "frontend_id": "0030",
+      "title": "Substring with Concatenation of All Words",
+      "slug": "substring-with-concatenation-of-all-words",
+      "difficulty": "Hard",
+      "techniques": [
+        "sliding window",
+        "hash map",
+        "substring manipulation",
+        "frequency counting"
+      ]
+    },
+    "0031": {
+      "frontend_id": "0031",
+      "title": "Next Permutation",
+      "slug": "next-permutation",
+      "difficulty": "Medium",
+      "techniques": [
+        "array manipulation",
+        "lexicographic ordering",
+        "in-place algorithm",
+        "constant space"
+      ]
+    },
+    "0032": {
+      "frontend_id": "0032",
+      "title": "Longest Valid Parentheses",
+      "slug": "longest-valid-parentheses",
+      "difficulty": "Hard",
+      "techniques": [
+        "stack",
+        "dynamic programming",
+        "two pointers"
+      ]
+    },
+    "0033": {
+      "frontend_id": "0033",
+      "title": "Search in Rotated Sorted Array",
+      "slug": "search-in-rotated-sorted-array",
+      "difficulty": "Medium",
+      "techniques": [
+        "binary search",
+        "modified binary search",
+        "pivot detection"
+      ]
+    },
+    "0034": {
+      "frontend_id": "0034",
+      "title": "Find First and Last Position of Element in Sorted Array",
+      "slug": "find-first-and-last-position-of-element-in-sorted-array",
+      "difficulty": "Medium",
+      "techniques": [
+        "binary search",
+        "modified binary search",
+        "array traversal"
+      ]
+    },
+    "0035": {
+      "frontend_id": "0035",
+      "title": "Search Insert Position",
+      "slug": "search-insert-position",
+      "difficulty": "Easy",
+      "techniques": [
+        "binary search",
+        "sorted array",
+        "array traversal"
+      ]
+    },
+    "0036": {
+      "frontend_id": "0036",
+      "title": "Valid Sudoku",
+      "slug": "valid-sudoku",
+      "difficulty": "Medium",
+      "techniques": [
+        "hash set",
+        "iteration",
+        "matrix traversal"
+      ]
+    },
+    "0037": {
+      "frontend_id": "0037",
+      "title": "Sudoku Solver",
+      "slug": "sudoku-solver",
+      "difficulty": "Hard",
+      "techniques": [
+        "backtracking",
+        "constraint propagation",
+        "recursion"
+      ]
+    },
+    "0038": {
+      "frontend_id": "0038",
+      "title": "Count and Say",
+      "slug": "count-and-say",
+      "difficulty": "Medium",
+      "techniques": [
+        "recursion",
+        "run-length encoding",
+        "string manipulation"
+      ]
+    },
+    "0039": {
+      "frontend_id": "0039",
+      "title": "Combination Sum",
+      "slug": "combination-sum",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "recursion",
+        "dfs",
+        "combinatorial search"
+      ]
+    },
+    "0040": {
+      "frontend_id": "0040",
+      "title": "Combination Sum II",
+      "slug": "combination-sum-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "sorting",
+        "pruning duplicates",
+        "recursion"
+      ]
+    },
+    "0041": {
+      "frontend_id": "0041",
+      "title": "First Missing Positive",
+      "slug": "first-missing-positive",
+      "difficulty": "Hard",
+      "techniques": [
+        "cyclic sort",
+        "array manipulation",
+        "constant space"
+      ]
+    },
+    "0042": {
+      "frontend_id": "0042",
+      "title": "Trapping Rain Water",
+      "slug": "trapping-rain-water",
+      "difficulty": "Hard",
+      "techniques": [
+        "two pointers",
+        "dynamic programming",
+        "preprocessing",
+        "array traversal"
+      ]
+    },
+    "0043": {
+      "frontend_id": "0043",
+      "title": "Multiply Strings",
+      "slug": "multiply-strings",
+      "difficulty": "Medium",
+      "techniques": [
+        "string manipulation",
+        "elementary math",
+        "array simulation",
+        "carry propagation"
+      ]
+    },
+    "0044": {
+      "frontend_id": "0044",
+      "title": "Wildcard Matching",
+      "slug": "wildcard-matching",
+      "difficulty": "Hard",
+      "techniques": [
+        "dynamic programming",
+        "string matching",
+        "memoization",
+        "recursion"
+      ]
+    },
+    "0045": {
+      "frontend_id": "0045",
+      "title": "Jump Game II",
+      "slug": "jump-game-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "greedy algorithm",
+        "breadth-first search",
+        "level traversal"
+      ]
+    },
+    "0046": {
+      "frontend_id": "0046",
+      "title": "Permutations",
+      "slug": "permutations",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "recursion",
+        "array manipulation"
+      ]
+    },
+    "0047": {
+      "frontend_id": "0047",
+      "title": "Permutations II",
+      "slug": "permutations-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "sorting",
+        "duplicate skipping"
+      ]
+    },
+    "0048": {
+      "frontend_id": "0048",
+      "title": "Rotate Image",
+      "slug": "rotate-image",
+      "difficulty": "Medium",
+      "techniques": [
+        "matrix manipulation",
+        "transpose",
+        "reverse rows"
+      ]
+    },
+    "0049": {
+      "frontend_id": "0049",
+      "title": "Group Anagrams",
+      "slug": "group-anagrams",
+      "difficulty": "Medium",
+      "techniques": [
+        "hash map",
+        "sorting",
+        "string manipulation"
+      ]
+    },
+    "0050": {
+      "frontend_id": "0050",
+      "title": "Pow(x, n)",
+      "slug": "powx-n",
+      "difficulty": "Medium",
+      "techniques": [
+        "exponentiation by squaring",
+        "recursion",
+        "bit manipulation"
+      ]
+    },
+    "0051": {
+      "frontend_id": "0051",
+      "title": "N-Queens",
+      "slug": "n-queens",
+      "difficulty": "Hard",
+      "techniques": [
+        "backtracking",
+        "recursion",
+        "constraint checking",
+        "array manipulation"
+      ]
+    },
+    "0052": {
+      "frontend_id": "0052",
+      "title": "N-Queens II",
+      "slug": "n-queens-ii",
+      "difficulty": "Hard",
+      "techniques": [
+        "backtracking",
+        "recursion",
+        "constraint checking",
+        "bit manipulation"
+      ]
+    },
+    "0053": {
+      "frontend_id": "0053",
+      "title": "Maximum Subarray",
+      "slug": "maximum-subarray",
+      "difficulty": "Medium",
+      "techniques": [
+        "kadane's algorithm",
+        "dynamic programming",
+        "sliding window"
+      ]
+    },
+    "0054": {
+      "frontend_id": "0054",
+      "title": "Spiral Matrix",
+      "slug": "spiral-matrix",
+      "difficulty": "Medium",
+      "techniques": [
+        "matrix traversal",
+        "boundary tracking",
+        "direction simulation"
+      ]
+    },
+    "0055": {
+      "frontend_id": "0055",
+      "title": "Jump Game",
+      "slug": "jump-game",
+      "difficulty": "Medium",
+      "techniques": [
+        "greedy algorithm",
+        "dynamic programming",
+        "array traversal"
+      ]
+    },
+    "0056": {
+      "frontend_id": "0056",
+      "title": "Merge Intervals",
+      "slug": "merge-intervals",
+      "difficulty": "Medium",
+      "techniques": [
+        "sorting",
+        "greedy algorithm",
+        "interval manipulation"
+      ]
+    },
+    "0057": {
+      "frontend_id": "0057",
+      "title": "Insert Interval",
+      "slug": "insert-interval",
+      "difficulty": "Medium",
+      "techniques": [
+        "interval merging",
+        "linear scan",
+        "array manipulation"
+      ]
+    },
+    "0058": {
+      "frontend_id": "0058",
+      "title": "Length of Last Word",
+      "slug": "length-of-last-word",
+      "difficulty": "Easy",
+      "techniques": [
+        "string traversal",
+        "reverse iteration",
+        "character checking"
+      ]
+    },
+    "0059": {
+      "frontend_id": "0059",
+      "title": "Spiral Matrix II",
+      "slug": "spiral-matrix-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "matrix traversal",
+        "boundary tracking",
+        "direction simulation"
+      ]
+    },
+    "0060": {
+      "frontend_id": "0060",
+      "title": "Permutation Sequence",
+      "slug": "permutation-sequence",
+      "difficulty": "Hard",
+      "techniques": [
+        "factorial calculation",
+        "mathematical indexing",
+        "array manipulation"
+      ]
+    },
+    "0061": {
+      "frontend_id": "0061",
+      "title": "Rotate List",
+      "slug": "rotate-list",
+      "difficulty": "Medium",
+      "techniques": [
+        "linked list traversal",
+        "modulo arithmetic",
+        "pointer manipulation"
+      ]
+    },
+    "0062": {
+      "frontend_id": "0062",
+      "title": "Unique Paths",
+      "slug": "unique-paths",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "combinatorics",
+        "memoization"
+      ]
+    },
+    "0063": {
+      "frontend_id": "0063",
+      "title": "Unique Paths II",
+      "slug": "unique-paths-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "grid traversal",
+        "memoization"
+      ]
+    },
+    "0064": {
+      "frontend_id": "0064",
+      "title": "Minimum Path Sum",
+      "slug": "minimum-path-sum",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "grid traversal",
+        "optimal substructure"
+      ]
+    },
+    "0065": {
+      "frontend_id": "0065",
+      "title": "Valid Number",
+      "slug": "valid-number",
+      "difficulty": "Hard",
+      "techniques": [
+        "finite state machine",
+        "string parsing",
+        "character classification",
+        "sign handling",
+        "exponent validation"
+      ]
+    },
+    "0066": {
+      "frontend_id": "0066",
+      "title": "Plus One",
+      "slug": "plus-one",
+      "difficulty": "Easy",
+      "techniques": [
+        "array traversal",
+        "carry propagation",
+        "digit manipulation"
+      ]
+    },
+    "0067": {
+      "frontend_id": "0067",
+      "title": "Add Binary",
+      "slug": "add-binary",
+      "difficulty": "Easy",
+      "techniques": [
+        "string manipulation",
+        "bitwise operations",
+        "carry propagation"
+      ]
+    },
+    "0068": {
+      "frontend_id": "0068",
+      "title": "Text Justification",
+      "slug": "text-justification",
+      "difficulty": "Hard",
+      "techniques": [
+        "greedy algorithm",
+        "string manipulation",
+        "array iteration",
+        "space distribution"
+      ]
+    },
+    "0069": {
+      "frontend_id": "0069",
+      "title": "Sqrt(x)",
+      "slug": "sqrtx",
+      "difficulty": "Easy",
+      "techniques": [
+        "binary search",
+        "mathematical computation",
+        "integer arithmetic"
+      ]
+    },
+    "0070": {
+      "frontend_id": "0070",
+      "title": "Climbing Stairs",
+      "slug": "climbing-stairs",
+      "difficulty": "Easy",
+      "techniques": [
+        "dynamic programming",
+        "fibonacci sequence",
+        "memoization"
+      ]
+    },
+    "0071": {
+      "frontend_id": "0071",
+      "title": "Simplify Path",
+      "slug": "simplify-path",
+      "difficulty": "Medium",
+      "techniques": [
+        "stack",
+        "string parsing",
+        "path normalization"
+      ]
+    },
+    "0072": {
+      "frontend_id": "0072",
+      "title": "Edit Distance",
+      "slug": "edit-distance",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "string manipulation",
+        "memoization"
+      ]
+    },
+    "0073": {
+      "frontend_id": "0073",
+      "title": "Set Matrix Zeroes",
+      "slug": "set-matrix-zeroes",
+      "difficulty": "Medium",
+      "techniques": [
+        "in-place modification",
+        "constant space",
+        "row-column tracking",
+        "matrix traversal"
+      ]
+    },
+    "0074": {
+      "frontend_id": "0074",
+      "title": "Search a 2D Matrix",
+      "slug": "search-a-2d-matrix",
+      "difficulty": "Medium",
+      "techniques": [
+        "binary search",
+        "matrix traversal",
+        "coordinate mapping"
+      ]
+    },
+    "0075": {
+      "frontend_id": "0075",
+      "title": "Sort Colors",
+      "slug": "sort-colors",
+      "difficulty": "Medium",
+      "techniques": [
+        "three-way partitioning",
+        "two pointers",
+        "constant space",
+        "one-pass algorithm"
+      ]
+    },
+    "0076": {
+      "frontend_id": "0076",
+      "title": "Minimum Window Substring",
+      "slug": "minimum-window-substring",
+      "difficulty": "Hard",
+      "techniques": [
+        "sliding window",
+        "hash map",
+        "two pointers"
+      ]
+    },
+    "0077": {
+      "frontend_id": "0077",
+      "title": "Combinations",
+      "slug": "combinations",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "recursion",
+        "combinatorial generation"
+      ]
+    },
+    "0078": {
+      "frontend_id": "0078",
+      "title": "Subsets",
+      "slug": "subsets",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "recursion",
+        "bit manipulation"
+      ]
+    },
+    "0079": {
+      "frontend_id": "0079",
+      "title": "Word Search",
+      "slug": "word-search",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "dfs",
+        "matrix traversal",
+        "visited tracking"
+      ]
+    },
+    "0080": {
+      "frontend_id": "0080",
+      "title": "Remove Duplicates from Sorted Array II",
+      "slug": "remove-duplicates-from-sorted-array-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "two pointers",
+        "in-place modification",
+        "sorted array traversal"
+      ]
+    },
+    "0081": {
+      "frontend_id": "0081",
+      "title": "Search in Rotated Sorted Array II",
+      "slug": "search-in-rotated-sorted-array-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "binary search",
+        "modified binary search",
+        "handle duplicates",
+        "pivot detection"
+      ]
+    },
+    "0082": {
+      "frontend_id": "0082",
+      "title": "Remove Duplicates from Sorted List II",
+      "slug": "remove-duplicates-from-sorted-list-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "linked list traversal",
+        "dummy node",
+        "two pointers",
+        "sorted list manipulation"
+      ]
+    },
+    "0083": {
+      "frontend_id": "0083",
+      "title": "Remove Duplicates from Sorted List",
+      "slug": "remove-duplicates-from-sorted-list",
+      "difficulty": "Easy",
+      "techniques": [
+        "linked list traversal",
+        "in-place modification"
+      ]
+    },
+    "0084": {
+      "frontend_id": "0084",
+      "title": "Largest Rectangle in Histogram",
+      "slug": "largest-rectangle-in-histogram",
+      "difficulty": "Hard",
+      "techniques": [
+        "monotonic stack",
+        "greedy algorithm",
+        "area calculation"
+      ]
+    },
+    "0085": {
+      "frontend_id": "0085",
+      "title": "Maximal Rectangle",
+      "slug": "maximal-rectangle",
+      "difficulty": "Hard",
+      "techniques": [
+        "dynamic programming",
+        "stack",
+        "histogram",
+        "monotonic stack"
+      ]
+    },
+    "0086": {
+      "frontend_id": "0086",
+      "title": "Partition List",
+      "slug": "partition-list",
+      "difficulty": "Medium",
+      "techniques": [
+        "linked list traversal",
+        "two pointers",
+        "dummy head"
+      ]
+    },
+    "0087": {
+      "frontend_id": "0087",
+      "title": "Scramble String",
+      "slug": "scramble-string",
+      "difficulty": "Hard",
+      "techniques": [
+        "recursion",
+        "memoization",
+        "substring comparison",
+        "dynamic programming"
+      ]
+    },
+    "0088": {
+      "frontend_id": "0088",
+      "title": "Merge Sorted Array",
+      "slug": "merge-sorted-array",
+      "difficulty": "Easy",
+      "techniques": [
+        "two pointers",
+        "merge sort",
+        "in-place modification"
+      ]
+    },
+    "0089": {
+      "frontend_id": "0089",
+      "title": "Gray Code",
+      "slug": "gray-code",
+      "difficulty": "Medium",
+      "techniques": [
+        "bit manipulation",
+        "recursion",
+        "iteration"
+      ]
+    },
+    "0090": {
+      "frontend_id": "0090",
+      "title": "Subsets II",
+      "slug": "subsets-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "sorting",
+        "duplicate skipping"
+      ]
+    },
+    "0091": {
+      "frontend_id": "0091",
+      "title": "Decode Ways",
+      "slug": "decode-ways",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "string parsing",
+        "memoization"
+      ]
+    },
+    "0092": {
+      "frontend_id": "0092",
+      "title": "Reverse Linked List II",
+      "slug": "reverse-linked-list-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "linked list traversal",
+        "pointer manipulation",
+        "sublist reversal",
+        "dummy node"
+      ]
+    },
+    "0093": {
+      "frontend_id": "0093",
+      "title": "Restore IP Addresses",
+      "slug": "restore-ip-addresses",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "string parsing",
+        "constraint validation"
+      ]
+    },
+    "0094": {
+      "frontend_id": "0094",
+      "title": "Binary Tree Inorder Traversal",
+      "slug": "binary-tree-inorder-traversal",
+      "difficulty": "Easy",
+      "techniques": [
+        "binary tree",
+        "inorder traversal",
+        "recursion",
+        "stack"
+      ]
+    },
+    "0095": {
+      "frontend_id": "0095",
+      "title": "Unique Binary Search Trees II",
+      "slug": "unique-binary-search-trees-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "recursion",
+        "dynamic programming",
+        "tree construction",
+        "memoization"
+      ]
+    },
+    "0096": {
+      "frontend_id": "0096",
+      "title": "Unique Binary Search Trees",
+      "slug": "unique-binary-search-trees",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "catalan numbers",
+        "recursion"
+      ]
+    },
+    "0097": {
+      "frontend_id": "0097",
+      "title": "Interleaving String",
+      "slug": "interleaving-string",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "string matching",
+        "memoization"
+      ]
+    },
+    "0098": {
+      "frontend_id": "0098",
+      "title": "Validate Binary Search Tree",
+      "slug": "validate-binary-search-tree",
+      "difficulty": "Medium",
+      "techniques": [
+        "recursion",
+        "tree traversal",
+        "range validation",
+        "dfs"
+      ]
+    },
+    "0099": {
+      "frontend_id": "0099",
+      "title": "Recover Binary Search Tree",
+      "slug": "recover-binary-search-tree",
+      "difficulty": "Medium",
+      "techniques": [
+        "inorder traversal",
+        "binary search tree property",
+        "tree manipulation"
+      ]
+    },
+    "0100": {
+      "frontend_id": "0100",
+      "title": "Same Tree",
+      "slug": "same-tree",
+      "difficulty": "Easy",
+      "techniques": [
+        "tree traversal",
+        "recursion",
+        "depth-first search"
+      ]
+    },
+    "0101": {
+      "frontend_id": "0101",
+      "title": "Symmetric Tree",
+      "slug": "symmetric-tree",
+      "difficulty": "Easy",
+      "techniques": [
+        "recursion",
+        "tree traversal",
+        "mirror comparison"
+      ]
+    },
+    "0102": {
+      "frontend_id": "0102",
+      "title": "Binary Tree Level Order Traversal",
+      "slug": "binary-tree-level-order-traversal",
+      "difficulty": "Medium",
+      "techniques": [
+        "breadth-first search",
+        "queue",
+        "level-by-level traversal"
+      ]
+    },
+    "0103": {
+      "frontend_id": "0103",
+      "title": "Binary Tree Zigzag Level Order Traversal",
+      "slug": "binary-tree-zigzag-level-order-traversal",
+      "difficulty": "Medium",
+      "techniques": [
+        "breadth-first search",
+        "level order traversal",
+        "queue",
+        "stack"
+      ]
+    },
+    "0104": {
+      "frontend_id": "0104",
+      "title": "Maximum Depth of Binary Tree",
+      "slug": "maximum-depth-of-binary-tree",
+      "difficulty": "Easy",
+      "techniques": [
+        "recursion",
+        "tree traversal",
+        "depth calculation"
+      ]
+    },
+    "0105": {
+      "frontend_id": "0105",
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "difficulty": "Medium",
+      "techniques": [
+        "recursion",
+        "hash map",
+        "tree traversal",
+        "divide and conquer"
+      ]
+    },
+    "0106": {
+      "frontend_id": "0106",
+      "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "difficulty": "Medium",
+      "techniques": [
+        "recursion",
+        "hash map",
+        "tree traversal",
+        "divide and conquer"
+      ]
+    },
+    "0107": {
+      "frontend_id": "0107",
+      "title": "Binary Tree Level Order Traversal II",
+      "slug": "binary-tree-level-order-traversal-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "breadth-first search",
+        "queue",
+        "level order traversal",
+        "reverse result"
+      ]
+    },
+    "0108": {
+      "frontend_id": "0108",
+      "title": "Convert Sorted Array to Binary Search Tree",
+      "slug": "convert-sorted-array-to-binary-search-tree",
+      "difficulty": "Easy",
+      "techniques": [
+        "binary search",
+        "recursion",
+        "divide and conquer",
+        "tree construction"
+      ]
+    },
+    "0109": {
+      "frontend_id": "0109",
+      "title": "Convert Sorted List to Binary Search Tree",
+      "slug": "convert-sorted-list-to-binary-search-tree",
+      "difficulty": "Medium",
+      "techniques": [
+        "linked list traversal",
+        "divide and conquer",
+        "binary search tree construction",
+        "recursion",
+        "fast slow pointer"
+      ]
+    },
+    "0110": {
+      "frontend_id": "0110",
+      "title": "Balanced Binary Tree",
+      "slug": "balanced-binary-tree",
+      "difficulty": "Easy",
+      "techniques": [
+        "tree traversal",
+        "recursion",
+        "height calculation",
+        "balanced condition check"
+      ]
+    },
+    "0111": {
+      "frontend_id": "0111",
+      "title": "Minimum Depth of Binary Tree",
+      "slug": "minimum-depth-of-binary-tree",
+      "difficulty": "Easy",
+      "techniques": [
+        "breadth-first search",
+        "tree traversal",
+        "level-order traversal"
+      ]
+    },
+    "0112": {
+      "frontend_id": "0112",
+      "title": "Path Sum",
+      "slug": "path-sum",
+      "difficulty": "Easy",
+      "techniques": [
+        "tree traversal",
+        "recursion",
+        "depth-first search"
+      ]
+    },
+    "0113": {
+      "frontend_id": "0113",
+      "title": "Path Sum II",
+      "slug": "path-sum-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "depth-first search",
+        "backtracking",
+        "tree traversal",
+        "path tracking"
+      ]
+    },
+    "0114": {
+      "frontend_id": "0114",
+      "title": "Flatten Binary Tree to Linked List",
+      "slug": "flatten-binary-tree-to-linked-list",
+      "difficulty": "Medium",
+      "techniques": [
+        "tree traversal",
+        "recursion",
+        "in-place modification",
+        "preorder traversal"
+      ]
+    },
+    "0115": {
+      "frontend_id": "0115",
+      "title": "Distinct Subsequences",
+      "slug": "distinct-subsequences",
+      "difficulty": "Hard",
+      "techniques": [
+        "dynamic programming",
+        "memoization",
+        "string manipulation"
+      ]
+    },
+    "0116": {
+      "frontend_id": "0116",
+      "title": "Populating Next Right Pointers in Each Node",
+      "slug": "populating-next-right-pointers-in-each-node",
+      "difficulty": "Medium",
+      "techniques": [
+        "level-order traversal",
+        "breadth-first search",
+        "queue",
+        "tree manipulation"
+      ]
+    },
+    "0117": {
+      "frontend_id": "0117",
+      "title": "Populating Next Right Pointers in Each Node II",
+      "slug": "populating-next-right-pointers-in-each-node-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "level-order traversal",
+        "breadth-first search",
+        "queue",
+        "linked list"
+      ]
+    },
+    "0118": {
+      "frontend_id": "0118",
+      "title": "Pascal's Triangle",
+      "slug": "pascals-triangle",
+      "difficulty": "Easy",
+      "techniques": [
+        "dynamic programming",
+        "nested arrays",
+        "mathematical computation"
+      ]
+    },
+    "0119": {
+      "frontend_id": "0119",
+      "title": "Pascal's Triangle II",
+      "slug": "pascals-triangle-ii",
+      "difficulty": "Easy",
+      "techniques": [
+        "dynamic programming",
+        "mathematical formula",
+        "space optimization"
+      ]
+    },
+    "0120": {
+      "frontend_id": "0120",
+      "title": "Triangle",
+      "slug": "triangle",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "bottom-up approach",
+        "memoization",
+        "recursion",
+        "top-down approach"
+      ]
+    },
+    "0121": {
+      "frontend_id": "0121",
+      "title": "Best Time to Buy and Sell Stock",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "difficulty": "Easy",
+      "techniques": [
+        "greedy algorithm",
+        "single pass",
+        "track minimum"
+      ]
+    },
+    "0122": {
+      "frontend_id": "0122",
+      "title": "Best Time to Buy and Sell Stock II",
+      "slug": "best-time-to-buy-and-sell-stock-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "greedy algorithm",
+        "dynamic programming",
+        "array traversal"
+      ]
+    },
+    "0123": {
+      "frontend_id": "0123",
+      "title": "Best Time to Buy and Sell Stock III",
+      "slug": "best-time-to-buy-and-sell-stock-iii",
+      "difficulty": "Hard",
+      "techniques": [
+        "dynamic programming",
+        "state machine",
+        "forward and backward pass"
+      ]
+    },
+    "0124": {
+      "frontend_id": "0124",
+      "title": "Binary Tree Maximum Path Sum",
+      "slug": "binary-tree-maximum-path-sum",
+      "difficulty": "Hard",
+      "techniques": [
+        "tree traversal",
+        "recursion",
+        "dynamic programming",
+        "post-order traversal"
+      ]
+    },
+    "0125": {
+      "frontend_id": "0125",
+      "title": "Valid Palindrome",
+      "slug": "valid-palindrome",
+      "difficulty": "Easy",
+      "techniques": [
+        "two pointers",
+        "string preprocessing",
+        "character filtering"
+      ]
+    },
+    "0126": {
+      "frontend_id": "0126",
+      "title": "Word Ladder II",
+      "slug": "word-ladder-ii",
+      "difficulty": "Hard",
+      "techniques": [
+        "breadth-first search",
+        "backtracking",
+        "graph traversal",
+        "queue"
+      ]
+    },
+    "0127": {
+      "frontend_id": "0127",
+      "title": "Word Ladder",
+      "slug": "word-ladder",
+      "difficulty": "Hard",
+      "techniques": [
+        "breadth-first search",
+        "graph traversal",
+        "queue",
+        "hash set",
+        "adjacency list"
+      ]
+    },
+    "0128": {
+      "frontend_id": "0128",
+      "title": "Longest Consecutive Sequence",
+      "slug": "longest-consecutive-sequence",
+      "difficulty": "Medium",
+      "techniques": [
+        "hash set",
+        "constant time lookup",
+        "iterative expansion"
+      ]
+    },
+    "0129": {
+      "frontend_id": "0129",
+      "title": "Sum Root to Leaf Numbers",
+      "slug": "sum-root-to-leaf-numbers",
+      "difficulty": "Medium",
+      "techniques": [
+        "tree traversal",
+        "dfs",
+        "path accumulation"
+      ]
+    },
+    "0130": {
+      "frontend_id": "0130",
+      "title": "Surrounded Regions",
+      "slug": "surrounded-regions",
+      "difficulty": "Medium",
+      "techniques": [
+        "breadth-first search",
+        "matrix traversal",
+        "boundary detection"
+      ]
+    },
+    "0131": {
+      "frontend_id": "0131",
+      "title": "Palindrome Partitioning",
+      "slug": "palindrome-partitioning",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "dynamic programming",
+        "string manipulation",
+        "recursion"
+      ]
+    },
+    "0132": {
+      "frontend_id": "0132",
+      "title": "Palindrome Partitioning II",
+      "slug": "palindrome-partitioning-ii",
+      "difficulty": "Hard",
+      "techniques": [
+        "dynamic programming",
+        "preprocessing",
+        "expand around center",
+        "palindrome detection"
+      ]
+    },
+    "0133": {
+      "frontend_id": "0133",
+      "title": "Clone Graph",
+      "slug": "clone-graph",
+      "difficulty": "Medium",
+      "techniques": [
+        "hash map",
+        "depth-first search",
+        "graph traversal",
+        "recursion"
+      ]
+    },
+    "0134": {
+      "frontend_id": "0134",
+      "title": "Gas Station",
+      "slug": "gas-station",
+      "difficulty": "Medium",
+      "techniques": [
+        "greedy algorithm",
+        "prefix sum",
+        "circular array"
+      ]
+    },
+    "0135": {
+      "frontend_id": "0135",
+      "title": "Candy",
+      "slug": "candy",
+      "difficulty": "Hard",
+      "techniques": [
+        "greedy algorithm",
+        "two pass",
+        "left to right scan",
+        "right to left scan",
+        "peak valley counting",
+        "space optimization"
+      ]
+    },
+    "0136": {
+      "frontend_id": "0136",
+      "title": "Single Number",
+      "slug": "single-number",
+      "difficulty": "Easy",
+      "techniques": [
+        "bit manipulation",
+        "xor operation"
+      ]
+    },
+    "0137": {
+      "frontend_id": "0137",
+      "title": "Single Number II",
+      "slug": "single-number-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "bit manipulation",
+        "finite state machine",
+        "digital logic"
+      ]
+    },
+    "0138": {
+      "frontend_id": "0138",
+      "title": "Copy List with Random Pointer",
+      "slug": "copy-list-with-random-pointer",
+      "difficulty": "Medium",
+      "techniques": [
+        "hash map",
+        "linked list traversal",
+        "two-pass algorithm"
+      ]
+    },
+    "0139": {
+      "frontend_id": "0139",
+      "title": "Word Break",
+      "slug": "word-break",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "hash set",
+        "substring matching"
+      ]
+    },
+    "0140": {
+      "frontend_id": "0140",
+      "title": "Word Break II",
+      "slug": "word-break-ii",
+      "difficulty": "Hard",
+      "techniques": [
+        "dynamic programming",
+        "backtracking",
+        "memoization",
+        "string manipulation",
+        "hash set"
+      ]
+    },
+    "0141": {
+      "frontend_id": "0141",
+      "title": "Linked List Cycle",
+      "slug": "linked-list-cycle",
+      "difficulty": "Easy",
+      "techniques": [
+        "two pointers",
+        "fast slow pointer",
+        "cycle detection"
+      ]
+    },
+    "0142": {
+      "frontend_id": "0142",
+      "title": "Linked List Cycle II",
+      "slug": "linked-list-cycle-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "fast slow pointers",
+        "cycle detection",
+        "linked list traversal"
+      ]
+    },
+    "0143": {
+      "frontend_id": "0143",
+      "title": "Reorder List",
+      "slug": "reorder-list",
+      "difficulty": "Medium",
+      "techniques": [
+        "linked list manipulation",
+        "two pointers",
+        "reverse linked list",
+        "merge linked lists"
+      ]
+    },
+    "0144": {
+      "frontend_id": "0144",
+      "title": "Binary Tree Preorder Traversal",
+      "slug": "binary-tree-preorder-traversal",
+      "difficulty": "Easy",
+      "techniques": [
+        "binary tree",
+        "preorder traversal",
+        "recursion",
+        "iterative dfs",
+        "stack"
+      ]
+    },
+    "0145": {
+      "frontend_id": "0145",
+      "title": "Binary Tree Postorder Traversal",
+      "slug": "binary-tree-postorder-traversal",
+      "difficulty": "Easy",
+      "techniques": [
+        "binary tree",
+        "postorder traversal",
+        "recursion",
+        "stack"
+      ]
+    },
+    "0146": {
+      "frontend_id": "0146",
+      "title": "LRU Cache",
+      "slug": "lru-cache",
+      "difficulty": "Medium",
+      "techniques": [
+        "hash map",
+        "doubly linked list",
+        "dummy head tail"
+      ]
+    },
+    "0147": {
+      "frontend_id": "0147",
+      "title": "Insertion Sort List",
+      "slug": "insertion-sort-list",
+      "difficulty": "Medium",
+      "techniques": [
+        "linked list traversal",
+        "insertion sort",
+        "in-place sorting"
+      ]
+    },
+    "0148": {
+      "frontend_id": "0148",
+      "title": "Sort List",
+      "slug": "sort-list",
+      "difficulty": "Medium",
+      "techniques": [
+        "merge sort",
+        "linked list traversal",
+        "divide and conquer",
+        "constant space optimization"
+      ]
+    },
+    "0149": {
+      "frontend_id": "0149",
+      "title": "Max Points on a Line",
+      "slug": "max-points-on-a-line",
+      "difficulty": "Hard",
+      "techniques": [
+        "hash map",
+        "slope calculation",
+        "greatest common divisor",
+        "nested iteration",
+        "coordinate geometry"
+      ]
+    },
+    "0150": {
+      "frontend_id": "0150",
+      "title": "Evaluate Reverse Polish Notation",
+      "slug": "evaluate-reverse-polish-notation",
+      "difficulty": "Medium",
+      "techniques": [
+        "stack",
+        "postfix evaluation",
+        "arithmetic operations"
+      ]
+    },
+    "0151": {
+      "frontend_id": "0151",
+      "title": "Reverse Words in a String",
+      "slug": "reverse-words-in-a-string",
+      "difficulty": "Medium",
+      "techniques": [
+        "string manipulation",
+        "split and join",
+        "two pointers",
+        "in-place reversal"
+      ]
+    },
+    "0152": {
+      "frontend_id": "0152",
+      "title": "Maximum Product Subarray",
+      "slug": "maximum-product-subarray",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "prefix product",
+        "tracking min/max"
+      ]
+    },
+    "0153": {
+      "frontend_id": "0153",
+      "title": "Find Minimum in Rotated Sorted Array",
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "difficulty": "Medium",
+      "techniques": [
+        "binary search",
+        "sorted array",
+        "rotation detection"
+      ]
+    },
+    "0154": {
+      "frontend_id": "0154",
+      "title": "Find Minimum in Rotated Sorted Array II",
+      "slug": "find-minimum-in-rotated-sorted-array-ii",
+      "difficulty": "Hard",
+      "techniques": [
+        "binary search",
+        "duplicate handling",
+        "divide and conquer",
+        "iterative approach"
+      ]
+    },
+    "0155": {
+      "frontend_id": "0155",
+      "title": "Min Stack",
+      "slug": "min-stack",
+      "difficulty": "Medium",
+      "techniques": [
+        "stack",
+        "auxiliary space",
+        "constant time operations"
+      ]
+    },
+    "0160": {
+      "frontend_id": "0160",
+      "title": "Intersection of Two Linked Lists",
+      "slug": "intersection-of-two-linked-lists",
+      "difficulty": "Easy",
+      "techniques": [
+        "two pointers",
+        "linked list traversal",
+        "length calculation"
+      ]
+    },
+    "0162": {
+      "frontend_id": "0162",
+      "title": "Find Peak Element",
+      "slug": "find-peak-element",
+      "difficulty": "Medium",
+      "techniques": [
+        "binary search",
+        "divide and conquer",
+        "array traversal"
+      ]
+    },
+    "0164": {
+      "frontend_id": "0164",
+      "title": "Maximum Gap",
+      "slug": "maximum-gap",
+      "difficulty": "Medium",
+      "techniques": [
+        "bucket sort",
+        "linear time sorting",
+        "pigeonhole principle",
+        "array traversal",
+        "minimum maximum tracking"
+      ]
+    },
+    "0165": {
+      "frontend_id": "0165",
+      "title": "Compare Version Numbers",
+      "slug": "compare-version-numbers",
+      "difficulty": "Medium",
+      "techniques": [
+        "string parsing",
+        "integer conversion",
+        "iterative comparison",
+        "zero padding"
+      ]
+    },
+    "0166": {
+      "frontend_id": "0166",
+      "title": "Fraction to Recurring Decimal",
+      "slug": "fraction-to-recurring-decimal",
+      "difficulty": "Medium",
+      "techniques": [
+        "long division",
+        "hash map",
+        "modular arithmetic",
+        "string manipulation"
+      ]
+    },
+    "0167": {
+      "frontend_id": "0167",
+      "title": "Two Sum II - Input Array Is Sorted",
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "difficulty": "Medium",
+      "techniques": [
+        "two pointers",
+        "sorted array",
+        "constant space"
+      ]
+    },
+    "0168": {
+      "frontend_id": "0168",
+      "title": "Excel Sheet Column Title",
+      "slug": "excel-sheet-column-title",
+      "difficulty": "Easy",
+      "techniques": [
+        "base conversion",
+        "modulo arithmetic",
+        "string manipulation"
+      ]
+    },
+    "0169": {
+      "frontend_id": "0169",
+      "title": "Majority Element",
+      "slug": "majority-element",
+      "difficulty": "Easy",
+      "techniques": [
+        "hash map",
+        "boyer-moore voting algorithm",
+        "counting"
+      ]
+    },
+    "0171": {
+      "frontend_id": "0171",
+      "title": "Excel Sheet Column Number",
+      "slug": "excel-sheet-column-number",
+      "difficulty": "Easy",
+      "techniques": [
+        "base conversion",
+        "string manipulation",
+        "mathematical calculation"
+      ]
+    },
+    "0172": {
+      "frontend_id": "0172",
+      "title": "Factorial Trailing Zeroes",
+      "slug": "factorial-trailing-zeroes",
+      "difficulty": "Medium",
+      "techniques": [
+        "mathematical analysis",
+        "counting factors",
+        "division by powers"
+      ]
+    },
+    "0173": {
+      "frontend_id": "0173",
+      "title": "Binary Search Tree Iterator",
+      "slug": "binary-search-tree-iterator",
+      "difficulty": "Medium",
+      "techniques": [
+        "stack",
+        "in-order traversal",
+        "binary search tree",
+        "iterative dfs"
+      ]
+    },
+    "0174": {
+      "frontend_id": "0174",
+      "title": "Dungeon Game",
+      "slug": "dungeon-game",
+      "difficulty": "Hard",
+      "techniques": [
+        "dynamic programming",
+        "bottom-up approach",
+        "2d grid traversal",
+        "minimum path calculation"
+      ]
+    },
+    "0175": {
+      "frontend_id": "0175",
+      "title": "Combine Two Tables",
+      "slug": "combine-two-tables",
+      "difficulty": "Easy",
+      "techniques": [
+        "sql join",
+        "left outer join",
+        "relational database"
+      ]
+    },
+    "0176": {
+      "frontend_id": "0176",
+      "title": "Second Highest Salary",
+      "slug": "second-highest-salary",
+      "difficulty": "Medium",
+      "techniques": [
+        "sql aggregation",
+        "distinct filtering",
+        "conditional selection",
+        "sorting",
+        "limit offset"
+      ]
+    },
+    "0177": {
+      "frontend_id": "0177",
+      "title": "Nth Highest Salary",
+      "slug": "nth-highest-salary",
+      "difficulty": "Medium",
+      "techniques": [
+        "distinct values",
+        "sorting",
+        "limit/offset",
+        "conditional logic"
+      ]
+    },
+    "0178": {
+      "frontend_id": "0178",
+      "title": "Rank Scores",
+      "slug": "rank-scores",
+      "difficulty": "Medium",
+      "techniques": [
+        "window function",
+        "dense rank",
+        "order by",
+        "sql aggregation"
+      ]
+    },
+    "0179": {
+      "frontend_id": "0179",
+      "title": "Largest Number",
+      "slug": "largest-number",
+      "difficulty": "Medium",
+      "techniques": [
+        "custom sorting",
+        "string concatenation",
+        "greedy algorithm"
+      ]
+    },
+    "0180": {
+      "frontend_id": "0180",
+      "title": "Consecutive Numbers",
+      "slug": "consecutive-numbers",
+      "difficulty": "Medium",
+      "techniques": [
+        "window functions",
+        "lag function",
+        "group by",
+        "count aggregation"
+      ]
+    },
+    "0181": {
+      "frontend_id": "0181",
+      "title": "Employees Earning More Than Their Managers",
+      "slug": "employees-earning-more-than-their-managers",
+      "difficulty": "Easy",
+      "techniques": [
+        "self join",
+        "sql comparison",
+        "inner join"
+      ]
+    },
+    "0182": {
+      "frontend_id": "0182",
+      "title": "Duplicate Emails",
+      "slug": "duplicate-emails",
+      "difficulty": "Easy",
+      "techniques": [
+        "group by",
+        "having clause",
+        "count aggregation"
+      ]
+    },
+    "0183": {
+      "frontend_id": "0183",
+      "title": "Customers Who Never Order",
+      "slug": "customers-who-never-order",
+      "difficulty": "Easy",
+      "techniques": [
+        "left join",
+        "null check",
+        "sql query"
+      ]
+    },
+    "0184": {
+      "frontend_id": "0184",
+      "title": "Department Highest Salary",
+      "slug": "department-highest-salary",
+      "difficulty": "Medium",
+      "techniques": [
+        "sql join",
+        "window function",
+        "group by",
+        "max aggregation"
+      ]
+    },
+    "0185": {
+      "frontend_id": "0185",
+      "title": "Department Top Three Salaries",
+      "slug": "department-top-three-salaries",
+      "difficulty": "Hard",
+      "techniques": [
+        "window function",
+        "dense rank",
+        "join",
+        "group by"
+      ]
+    },
+    "0187": {
+      "frontend_id": "0187",
+      "title": "Repeated DNA Sequences",
+      "slug": "repeated-dna-sequences",
+      "difficulty": "Medium",
+      "techniques": [
+        "sliding window",
+        "hash set",
+        "substring extraction"
+      ]
+    },
+    "0188": {
+      "frontend_id": "0188",
+      "title": "Best Time to Buy and Sell Stock IV",
+      "slug": "best-time-to-buy-and-sell-stock-iv",
+      "difficulty": "Hard",
+      "techniques": [
+        "dynamic programming",
+        "state machine",
+        "memoization"
+      ]
+    },
+    "0189": {
+      "frontend_id": "0189",
+      "title": "Rotate Array",
+      "slug": "rotate-array",
+      "difficulty": "Medium",
+      "techniques": [
+        "array reversal",
+        "modular arithmetic",
+        "in-place rotation"
+      ]
+    },
+    "0190": {
+      "frontend_id": "0190",
+      "title": "Reverse Bits",
+      "slug": "reverse-bits",
+      "difficulty": "Easy",
+      "techniques": [
+        "bit manipulation",
+        "loop",
+        "shift operations"
+      ]
+    },
+    "0191": {
+      "frontend_id": "0191",
+      "title": "Number of 1 Bits",
+      "slug": "number-of-1-bits",
+      "difficulty": "Easy",
+      "techniques": [
+        "bit manipulation",
+        "loop through bits",
+        "modulo operation"
+      ]
+    },
+    "0192": {
+      "frontend_id": "0192",
+      "title": "Word Frequency",
+      "slug": "word-frequency",
+      "difficulty": "Medium",
+      "techniques": [
+        "text processing",
+        "associative arrays",
+        "sorting",
+        "parsing"
+      ]
+    },
+    "0193": {
+      "frontend_id": "0193",
+      "title": "Valid Phone Numbers",
+      "slug": "valid-phone-numbers",
+      "difficulty": "Easy",
+      "techniques": [
+        "regex pattern matching",
+        "bash scripting",
+        "text processing"
+      ]
+    },
+    "0194": {
+      "frontend_id": "0194",
+      "title": "Transpose File",
+      "slug": "transpose-file",
+      "difficulty": "Medium",
+      "techniques": [
+        "file parsing",
+        "string manipulation",
+        "array transposition",
+        "awk scripting"
+      ]
+    },
+    "0195": {
+      "frontend_id": "0195",
+      "title": "Tenth Line",
+      "slug": "tenth-line",
+      "difficulty": "Easy",
+      "techniques": [
+        "file reading",
+        "line counting",
+        "stream processing"
+      ]
+    },
+    "0196": {
+      "frontend_id": "0196",
+      "title": "Delete Duplicate Emails",
+      "slug": "delete-duplicate-emails",
+      "difficulty": "Easy",
+      "techniques": [
+        "sql delete",
+        "window functions",
+        "row_number",
+        "partition by",
+        "ordering"
+      ]
+    },
+    "0197": {
+      "frontend_id": "0197",
+      "title": "Rising Temperature",
+      "slug": "rising-temperature",
+      "difficulty": "Easy",
+      "techniques": [
+        "date comparison",
+        "self join",
+        "sql"
+      ]
+    },
+    "0198": {
+      "frontend_id": "0198",
+      "title": "House Robber",
+      "slug": "house-robber",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "memoization",
+        "recursion"
+      ]
+    },
+    "0199": {
+      "frontend_id": "0199",
+      "title": "Binary Tree Right Side View",
+      "slug": "binary-tree-right-side-view",
+      "difficulty": "Medium",
+      "techniques": [
+        "breadth-first search",
+        "level-order traversal",
+        "queue"
+      ]
+    },
+    "0200": {
+      "frontend_id": "0200",
+      "title": "Number of Islands",
+      "slug": "number-of-islands",
+      "difficulty": "Medium",
+      "techniques": [
+        "depth-first search",
+        "breadth-first search",
+        "graph traversal",
+        "matrix iteration",
+        "flood fill"
+      ]
+    },
+    "0201": {
+      "frontend_id": "0201",
+      "title": "Bitwise AND of Numbers Range",
+      "slug": "bitwise-and-of-numbers-range",
+      "difficulty": "Medium",
+      "techniques": [
+        "bit manipulation",
+        "shift operations",
+        "common prefix"
+      ]
+    },
+    "0202": {
+      "frontend_id": "0202",
+      "title": "Happy Number",
+      "slug": "happy-number",
+      "difficulty": "Easy",
+      "techniques": [
+        "digit manipulation",
+        "hash set",
+        "cycle detection"
+      ]
+    },
+    "0203": {
+      "frontend_id": "0203",
+      "title": "Remove Linked List Elements",
+      "slug": "remove-linked-list-elements",
+      "difficulty": "Easy",
+      "techniques": [
+        "linked list traversal",
+        "dummy head node",
+        "node removal"
+      ]
+    },
+    "0204": {
+      "frontend_id": "0204",
+      "title": "Count Primes",
+      "slug": "count-primes",
+      "difficulty": "Medium",
+      "techniques": [
+        "sieve of eratosthenes",
+        "array marking",
+        "iteration optimization"
+      ]
+    },
+    "0205": {
+      "frontend_id": "0205",
+      "title": "Isomorphic Strings",
+      "slug": "isomorphic-strings",
+      "difficulty": "Easy",
+      "techniques": [
+        "hash map",
+        "character mapping",
+        "bijection check"
+      ]
+    },
+    "0206": {
+      "frontend_id": "0206",
+      "title": "Reverse Linked List",
+      "slug": "reverse-linked-list",
+      "difficulty": "Easy",
+      "techniques": [
+        "linked list traversal",
+        "iterative reversal",
+        "recursive reversal"
+      ]
+    },
+    "0207": {
+      "frontend_id": "0207",
+      "title": "Course Schedule",
+      "slug": "course-schedule",
+      "difficulty": "Medium",
+      "techniques": [
+        "topological sort",
+        "graph cycle detection",
+        "dfs",
+        "adjacency list"
+      ]
+    },
+    "0208": {
+      "frontend_id": "0208",
+      "title": "Implement Trie (Prefix Tree)",
+      "slug": "implement-trie-prefix-tree",
+      "difficulty": "Medium",
+      "techniques": [
+        "trie data structure",
+        "hash map",
+        "tree traversal"
+      ]
+    },
+    "0209": {
+      "frontend_id": "0209",
+      "title": "Minimum Size Subarray Sum",
+      "slug": "minimum-size-subarray-sum",
+      "difficulty": "Medium",
+      "techniques": [
+        "sliding window",
+        "two pointers",
+        "prefix sum"
+      ]
+    },
+    "0210": {
+      "frontend_id": "0210",
+      "title": "Course Schedule II",
+      "slug": "course-schedule-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "topological sort",
+        "graph representation",
+        "dfs",
+        "cycle detection",
+        "adjacency list"
+      ]
+    },
+    "0211": {
+      "frontend_id": "0211",
+      "title": "Design Add and Search Words Data Structure",
+      "slug": "design-add-and-search-words-data-structure",
+      "difficulty": "Medium",
+      "techniques": [
+        "trie",
+        "dfs",
+        "backtracking"
+      ]
+    },
+    "0212": {
+      "frontend_id": "0212",
+      "title": "Word Search II",
+      "slug": "word-search-ii",
+      "difficulty": "Hard",
+      "techniques": [
+        "trie data structure",
+        "depth-first search",
+        "backtracking",
+        "pruning optimization"
+      ]
+    },
+    "0213": {
+      "frontend_id": "0213",
+      "title": "House Robber II",
+      "slug": "house-robber-ii",
+      "difficulty": "Medium",
+      "techniques": [
+        "dynamic programming",
+        "circular array handling",
+        "house robbing logic"
+      ]
+    },
+    "0214": {
+      "frontend_id": "0214",
+      "title": "Shortest Palindrome",
+      "slug": "shortest-palindrome",
+      "difficulty": "Hard",
+      "techniques": [
+        "kmp algorithm",
+        "string reversal",
+        "palindrome detection",
+        "rolling hash",
+        "two pointers"
+      ]
+    },
+    "0215": {
+      "frontend_id": "0215",
+      "title": "Kth Largest Element in an Array",
+      "slug": "kth-largest-element-in-an-array",
+      "difficulty": "Medium",
+      "techniques": [
+        "quickselect",
+        "heap",
+        "partitioning"
+      ]
+    },
+    "0216": {
+      "frontend_id": "0216",
+      "title": "Combination Sum III",
+      "slug": "combination-sum-iii",
+      "difficulty": "Medium",
+      "techniques": [
+        "backtracking",
+        "recursion",
+        "constraint checking"
+      ]
+    },
+    "0217": {
+      "frontend_id": "0217",
+      "title": "Contains Duplicate",
+      "slug": "contains-duplicate",
+      "difficulty": "Easy",
+      "techniques": [
+        "hash set",
+        "iteration"
+      ]
+    },
+    "0218": {
+      "frontend_id": "0218",
+      "title": "The Skyline Problem",
+      "slug": "the-skyline-problem",
+      "difficulty": "Hard",
+      "techniques": [
+        "sweep line",
+        "priority queue",
+        "coordinate compression",
+        "event processing",
+        "heap"
+      ]
+    },
+    "0219": {
+      "frontend_id": "0219",
+      "title": "Contains Duplicate II",
+      "slug": "contains-duplicate-ii",
+      "difficulty": "Easy",
+      "techniques": [
+        "hash map",
+        "sliding window",
+        "array traversal"
+      ]
+    }
+  }
+}

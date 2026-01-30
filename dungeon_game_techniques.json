@@ -1,0 +1,10 @@
+{
+  "frontend_id": 174,
+  "title": "Dungeon Game",
+  "techniques": [
+    "dynamic programming",
+    "bottom-up approach",
+    "2d grid traversal",
+    "minimum path calculation"
+  ]
+}

@@ -1,0 +1,42 @@
+You are a coding interview expert.
+
+Task: Extract 3-7 key techniques used to solve the LeetCode problem below.
+- Use concise lowercase phrases (e.g., "hash map", "two pointers", "binary search").
+- Prefer common algorithm/data-structure technique names.
+- Return STRICT JSON only (no markdown, no extra commentary).
+
+Return JSON schema:
+{
+  "frontend_id": 219,
+  "title": "Contains Duplicate II",
+  "techniques": ["technique 1", "technique 2"]
+}
+
+Problem:
+Title: Contains Duplicate II
+Frontend ID: 219
+Slug: contains-duplicate-ii
+Difficulty: Easy
+
+Description:
+Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
+Example 1:
+Example 2:
+Example 3:
+Constraints:
+
+Examples:
+Input: nums = [1,2,3,1], k = 3
+Output: true
+
+Input: nums = [1,0,1,1], k = 1
+Output: true
+
+Input: nums = [1,2,3,1,2,3], k = 2
+Output: false
+
+Constraints:
+1 <= nums.length <= 105
+-109 <= nums[i] <= 109
+0 <= k <= 105
+

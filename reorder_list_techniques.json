@@ -1,0 +1,10 @@
+{
+  "frontend_id": 143,
+  "title": "Reorder List",
+  "techniques": [
+    "linked list manipulation",
+    "two pointers",
+    "reverse linked list",
+    "merge linked lists"
+  ]
+}

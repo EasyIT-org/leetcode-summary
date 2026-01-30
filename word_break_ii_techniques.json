@@ -1,0 +1,11 @@
+{
+  "frontend_id": 140,
+  "title": "Word Break II",
+  "techniques": [
+    "dynamic programming",
+    "backtracking",
+    "memoization",
+    "string manipulation",
+    "hash set"
+  ]
+}

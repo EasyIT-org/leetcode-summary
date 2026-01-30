@@ -1,0 +1,11 @@
+{
+  "frontend_id": 214,
+  "title": "Shortest Palindrome",
+  "techniques": [
+    "kmp algorithm",
+    "string reversal",
+    "palindrome detection",
+    "rolling hash",
+    "two pointers"
+  ]
+}

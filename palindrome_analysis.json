@@ -1,0 +1,9 @@
+{
+  "frontend_id": 9,
+  "title": "Palindrome Number",
+  "techniques": [
+    "mathematical reversal",
+    "digit extraction",
+    "comparison"
+  ]
+}

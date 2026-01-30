@@ -1,0 +1,9 @@
+{
+  "frontend_id": 137,
+  "title": "Single Number II",
+  "techniques": [
+    "bit manipulation",
+    "finite state machine",
+    "digital logic"
+  ]
+}

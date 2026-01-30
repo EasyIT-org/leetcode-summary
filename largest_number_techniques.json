@@ -1,0 +1,9 @@
+{
+  "frontend_id": 179,
+  "title": "Largest Number",
+  "techniques": [
+    "custom sorting",
+    "string concatenation",
+    "greedy algorithm"
+  ]
+}

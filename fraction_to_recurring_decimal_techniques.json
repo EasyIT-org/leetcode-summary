@@ -1,0 +1,10 @@
+{
+  "frontend_id": 166,
+  "title": "Fraction to Recurring Decimal",
+  "techniques": [
+    "long division",
+    "hash map",
+    "modular arithmetic",
+    "string manipulation"
+  ]
+}

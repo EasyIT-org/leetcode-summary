@@ -1,0 +1,10 @@
+{
+  "frontend_id": 173,
+  "title": "Binary Search Tree Iterator",
+  "techniques": [
+    "stack",
+    "in-order traversal",
+    "binary search tree",
+    "iterative dfs"
+  ]
+}

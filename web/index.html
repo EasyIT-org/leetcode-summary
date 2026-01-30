@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LeetCode Techniques Index</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <h1>LeetCode Techniques Index</h1>
+        <p>Browse techniques ranked by problem count. Click a technique to view problems.</p>
+      </div>
+      <div class="meta" id="meta">Loading…</div>
+    </header>
+
+    <main class="layout">
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Techniques</h2>
+          <input id="techniqueFilter" type="text" placeholder="Filter techniques" />
+        </div>
+        <div id="techniqueList" class="list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2 id="techniqueTitle">Problems</h2>
+          <div class="controls">
+            <select id="sortMode">
+              <option value="count">Sort by count</option>
+              <option value="id">Sort by id</option>
+              <option value="title">Sort by title</option>
+            </select>
+            <input id="problemFilter" type="text" placeholder="Filter problems" />
+          </div>
+        </div>
+        <div id="problemList" class="list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Data: index.json</span>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

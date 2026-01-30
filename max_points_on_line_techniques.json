@@ -1,0 +1,11 @@
+{
+  "frontend_id": 149,
+  "title": "Max Points on a Line",
+  "techniques": [
+    "hash map",
+    "slope calculation",
+    "greatest common divisor",
+    "nested iteration",
+    "coordinate geometry"
+  ]
+}

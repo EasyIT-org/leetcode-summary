@@ -1,0 +1,7 @@
+```json
+{
+  "frontend_id": 219,
+  "title": "Contains Duplicate II",
+  "techniques": ["hash map", "sliding window", "array traversal"]
+}
+```

@@ -1,0 +1,10 @@
+{
+  "frontend_id": 194,
+  "title": "Transpose File",
+  "techniques": [
+    "file parsing",
+    "string manipulation",
+    "array transposition",
+    "awk scripting"
+  ]
+}

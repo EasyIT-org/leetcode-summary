@@ -1,0 +1,11 @@
+{
+  "frontend_id": 210,
+  "title": "Course Schedule II",
+  "techniques": [
+    "topological sort",
+    "graph representation",
+    "dfs",
+    "cycle detection",
+    "adjacency list"
+  ]
+}
