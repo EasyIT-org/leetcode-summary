@@ -13,6 +13,8 @@ const showTechniquesBtn = document.getElementById('showTechniques');
 let indexData = null;
 let selectedTechnique = null;
 let selectedProblem = null;
+const problemDetailCache = new Map();
+let detailRequestId = 0;
 
 showTechniquesBtn.hidden = true;
 
@@ -25,6 +27,27 @@ function renderMeta() {
 
 function getLeetCodeUrl(slug) {
   return `https://leetcode.com/problems/${slug}/`;
+}
+
+function normalizeId(frontendId) {
+  if (frontendId === null || frontendId === undefined) return '';
+  const raw = String(frontendId).trim();
+  const padded = raw.replace(/\D/g, '').padStart(4, '0');
+  return padded || raw;
+}
+
+function normalizeText(value) {
+  if (!value) return '';
+  return String(value)
+    .replace(/<code>/g, '`')
+    .replace(/<\/code>/g, '`')
+    .replace(/<[^>]+>/g, '');
+}
+
+function getProblemFileName(problem) {
+  const id = normalizeId(problem.frontend_id);
+  const slug = problem.slug || problem.problem_slug || '';
+  return `${id}-${slug}.json`;
 }
 
 function setDetailOpen(open) {
@@ -66,7 +89,7 @@ function renderTechniques() {
       selectedTechnique = item.name;
       selectedProblem = null;
       setDetailOpen(false);
-      renderDetail();
+      renderDetailPlaceholder();
       renderTechniques();
       renderProblems();
     });
@@ -74,7 +97,7 @@ function renderTechniques() {
   });
 }
 
-function renderDetail() {
+function renderDetailPlaceholder() {
   if (!selectedProblem) {
     problemDetailEl.innerHTML = '<div class="empty">Select a problem to view details.</div>';
     return;
@@ -86,27 +109,185 @@ function renderDetail() {
     : '';
   const techniques = selectedProblem.techniques || [];
   const leetUrl = getLeetCodeUrl(selectedProblem.slug);
-  const techniqueTags = techniques.length
-    ? techniques.map((name) => `<span class="pill">${name}</span>`).join('')
-    : '<span class="pill">n/a</span>';
 
-  problemDetailEl.innerHTML = `
-    <div>
-      <div class="detail-title">${selectedProblem.frontend_id}. ${selectedProblem.title}</div>
-      <div class="detail-sub">Slug: ${selectedProblem.slug}</div>
-    </div>
-    <div class="detail-tags">
-      <span class="pill ${difficultyClass}">Difficulty: ${difficulty}</span>
-      <span class="pill">#${selectedProblem.frontend_id}</span>
-    </div>
-    <div class="detail-actions">
-      <a class="btn" href="${leetUrl}" target="_blank" rel="noopener">Open on LeetCode</a>
-    </div>
-    <div>
-      <div class="detail-sub">Techniques</div>
-      <div class="detail-tags">${techniqueTags}</div>
-    </div>
+  problemDetailEl.innerHTML = '';
+
+  const header = document.createElement('div');
+  header.innerHTML = `
+    <div class="detail-title">${selectedProblem.frontend_id}. ${selectedProblem.title}</div>
+    <div class="detail-sub">Slug: ${selectedProblem.slug}</div>
   `;
+
+  const tags = document.createElement('div');
+  tags.className = 'detail-tags';
+  const diff = document.createElement('span');
+  diff.className = `pill ${difficultyClass}`;
+  diff.textContent = `Difficulty: ${difficulty}`;
+  const idTag = document.createElement('span');
+  idTag.className = 'pill';
+  idTag.textContent = `#${selectedProblem.frontend_id}`;
+  tags.append(diff, idTag);
+
+  const actions = document.createElement('div');
+  actions.className = 'detail-actions';
+  const link = document.createElement('a');
+  link.className = 'btn';
+  link.href = leetUrl;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.textContent = 'Open on LeetCode';
+  actions.appendChild(link);
+
+  const techSection = document.createElement('div');
+  const techLabel = document.createElement('div');
+  techLabel.className = 'detail-sub';
+  techLabel.textContent = 'Techniques';
+  const techTags = document.createElement('div');
+  techTags.className = 'detail-tags';
+  if (techniques.length) {
+    techniques.forEach((name) => {
+      const pill = document.createElement('span');
+      pill.className = 'pill';
+      pill.textContent = name;
+      techTags.appendChild(pill);
+    });
+  } else {
+    const pill = document.createElement('span');
+    pill.className = 'pill';
+    pill.textContent = 'n/a';
+    techTags.appendChild(pill);
+  }
+  techSection.append(techLabel, techTags);
+
+  const loading = document.createElement('div');
+  loading.className = 'detail-loading';
+  loading.textContent = 'Loading problem content...';
+
+  problemDetailEl.append(header, tags, actions, techSection, loading);
+}
+
+function addTextSection(root, title, body, sectionKey) {
+  if (!body) return;
+  const section = document.createElement('div');
+  section.className = 'detail-section';
+  section.dataset.section = sectionKey;
+  const label = document.createElement('div');
+  label.className = 'detail-label';
+  label.textContent = title;
+  const content = document.createElement('div');
+  content.className = 'detail-body';
+  content.textContent = normalizeText(body);
+  section.append(label, content);
+  root.appendChild(section);
+}
+
+function addListSection(root, title, items, sectionKey) {
+  if (!items || !items.length) return;
+  const section = document.createElement('div');
+  section.className = 'detail-section';
+  section.dataset.section = sectionKey;
+  const label = document.createElement('div');
+  label.className = 'detail-label';
+  label.textContent = title;
+  const list = document.createElement('ul');
+  list.className = 'detail-list';
+  items.forEach((item) => {
+    const li = document.createElement('li');
+    li.textContent = normalizeText(item);
+    list.appendChild(li);
+  });
+  section.append(label, list);
+  root.appendChild(section);
+}
+
+function addExamplesSection(root, examples) {
+  if (!examples || !examples.length) return;
+  const section = document.createElement('div');
+  section.className = 'detail-section';
+  section.dataset.section = 'examples';
+  const label = document.createElement('div');
+  label.className = 'detail-label';
+  label.textContent = 'Examples';
+  section.appendChild(label);
+
+  examples.forEach((example) => {
+    const block = document.createElement('div');
+    block.className = 'example-block';
+    const title = document.createElement('div');
+    title.className = 'detail-sub';
+    title.textContent = `Example ${example.example_num || ''}`.trim();
+    const body = document.createElement('div');
+    body.className = 'detail-body';
+    body.textContent = normalizeText(example.example_text);
+    block.append(title, body);
+    section.appendChild(block);
+  });
+
+  root.appendChild(section);
+}
+
+async function fetchProblemDetail(problem) {
+  const fileName = getProblemFileName(problem);
+  const response = await fetch(`./problems/${fileName}`);
+  if (!response.ok) {
+    throw new Error(`Failed to load ${fileName}`);
+  }
+  return response.json();
+}
+
+async function loadDetailContent(problem) {
+  const requestId = ++detailRequestId;
+  const cacheKey = problem.slug || problem.problem_slug || problem.frontend_id;
+  if (problemDetailCache.has(cacheKey)) {
+    renderDetailContent(problem, problemDetailCache.get(cacheKey), requestId);
+    return;
+  }
+
+  try {
+    const detail = await fetchProblemDetail(problem);
+    problemDetailCache.set(cacheKey, detail);
+    renderDetailContent(problem, detail, requestId);
+  } catch (error) {
+    if (requestId !== detailRequestId) return;
+    const errorBox = document.createElement('div');
+    errorBox.className = 'empty';
+    errorBox.textContent = 'Problem content not available.';
+    problemDetailEl.appendChild(errorBox);
+  }
+}
+
+function renderDetailContent(problem, detail, requestId) {
+  if (requestId !== detailRequestId) return;
+  renderDetailPlaceholder();
+  const loading = problemDetailEl.querySelector('.detail-loading');
+  if (loading) {
+    loading.remove();
+  }
+
+  addTextSection(problemDetailEl, 'Description', detail.description, 'description');
+  addExamplesSection(problemDetailEl, detail.examples);
+  addListSection(problemDetailEl, 'Constraints', detail.constraints, 'constraints');
+  addListSection(problemDetailEl, 'Follow ups', detail.follow_ups, 'follow-ups');
+  addListSection(problemDetailEl, 'Hints', detail.hints, 'hints');
+
+  if (detail.topics && detail.topics.length) {
+    const section = document.createElement('div');
+    section.className = 'detail-section';
+    section.dataset.section = 'topics';
+    const label = document.createElement('div');
+    label.className = 'detail-label';
+    label.textContent = 'Topics';
+    const tags = document.createElement('div');
+    tags.className = 'detail-tags';
+    detail.topics.forEach((topic) => {
+      const pill = document.createElement('span');
+      pill.className = 'pill';
+      pill.textContent = topic;
+      tags.appendChild(pill);
+    });
+    section.append(label, tags);
+    problemDetailEl.appendChild(section);
+  }
 }
 
 function renderProblems() {
@@ -172,7 +353,8 @@ function renderProblems() {
       selectedProblem = p;
       setDetailOpen(true);
       renderProblems();
-      renderDetail();
+      renderDetailPlaceholder();
+      loadDetailContent(p);
     });
     const link = card.querySelector('.problem-link');
     link.addEventListener('click', (event) => {
@@ -188,7 +370,7 @@ async function loadIndex() {
   renderMeta();
   renderTechniques();
   renderProblems();
-  renderDetail();
+  renderDetailPlaceholder();
 }
 
 techniqueFilterEl.addEventListener('input', renderTechniques);
@@ -198,7 +380,7 @@ sortModeEl.addEventListener('change', renderProblems);
 showTechniquesBtn.addEventListener('click', () => {
   selectedProblem = null;
   setDetailOpen(false);
-  renderDetail();
+  renderDetailPlaceholder();
   renderProblems();
 });
 

@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 WEB = ROOT / "web"
+PROBLEMS = ROOT / "_source" / "problems"
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -14,6 +15,11 @@ class Handler(SimpleHTTPRequestHandler):
             return str(ROOT / "index.json")
         if path.startswith("/data/"):
             return str(ROOT / path.lstrip("/"))
+        if path.startswith("/problems/"):
+            web_path = (WEB / path.lstrip("/")).resolve()
+            if web_path.exists():
+                return str(web_path)
+            return str((PROBLEMS / path[len("/problems/") :]).resolve())
         # Default to web directory
         return str((WEB / path.lstrip("/")).resolve())
 
@@ -28,6 +34,8 @@ def main():
 
     if not WEB.exists():
         raise SystemExit("Missing web/ directory")
+    if not PROBLEMS.exists():
+        raise SystemExit("Missing _source/problems directory")
 
     server = ThreadingHTTPServer((host, port), Handler)
     print(f"Serving on http://{host}:{port}")

@@ -87,10 +87,7 @@ body {
 }
 
 .layout.detail-open .techniques-panel {
-  opacity: 0;
-  transform: translateX(-18px);
-  pointer-events: none;
-  visibility: hidden;
+  display: none;
 }
 
 .layout.detail-open .problems-panel {
@@ -241,6 +238,49 @@ button.ghost:hover {
 .detail-sub {
   color: var(--muted);
   font-size: 13px;
+}
+
+.detail-loading {
+  color: var(--muted);
+  font-size: 14px;
+  padding: 10px 12px;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+}
+
+.detail-section {
+  display: grid;
+  gap: 8px;
+}
+
+.detail-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+}
+
+.detail-body {
+  white-space: pre-wrap;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.detail-list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+  color: var(--text);
+}
+
+.example-block {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: rgba(8, 10, 14, 0.5);
+  display: grid;
+  gap: 8px;
 }
 
 .detail-tags {
