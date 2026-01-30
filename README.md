@@ -2,6 +2,9 @@
 
 本项目包含一个静态统计页面，用于浏览题目与技巧的对应关系。
 
+## 在线访问
+`https://easyit-org.github.io/leetcode-summary/`
+
 ## 本地预览
 ```bash
 python3 server.py
@@ -21,7 +24,7 @@ python3 server.py
 4. Branch 选择 `main`（或你的默认分支），目录选择 `/docs`，保存。
 
 随后访问：
-`https://<your-username>.github.io/<repo-name>/`
+`https://easyit-org.github.io/leetcode-summary/`
 
 ## 更新数据后的发布流程
 1. 运行更新脚本（如 `scripts/update_index.py`）生成新的 `index.json`。
