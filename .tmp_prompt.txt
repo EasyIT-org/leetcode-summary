@@ -7,36 +7,37 @@ Task: Extract 3-7 key techniques used to solve the LeetCode problem below.
 
 Return JSON schema:
 {
-  "frontend_id": 219,
-  "title": "Contains Duplicate II",
+  "frontend_id": 866,
+  "title": "Prime Palindrome",
   "techniques": ["technique 1", "technique 2"]
 }
 
 Problem:
-Title: Contains Duplicate II
-Frontend ID: 219
-Slug: contains-duplicate-ii
-Difficulty: Easy
+Title: Prime Palindrome
+Frontend ID: 866
+Slug: prime-palindrome
+Difficulty: Medium
 
 Description:
-Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
+Given an integer n, return the smallest prime palindrome greater than or equal to n.
+An integer is prime if it has exactly two divisors: 1 and itself. Note that 1 is not a prime number.
+An integer is a palindrome if it reads the same from left to right as it does from right to left.
+The test cases are generated so that the answer always exists and is in the range [2, 2 * 108].
 Example 1:
 Example 2:
 Example 3:
 Constraints:
 
 Examples:
-Input: nums = [1,2,3,1], k = 3
-Output: true
+Input: n = 6
+Output: 7
 
-Input: nums = [1,0,1,1], k = 1
-Output: true
+Input: n = 8
+Output: 11
 
-Input: nums = [1,2,3,1,2,3], k = 2
-Output: false
+Input: n = 13
+Output: 101
 
 Constraints:
-1 <= nums.length <= 105
--109 <= nums[i] <= 109
-0 <= k <= 105
+1 <= n <= 108
 

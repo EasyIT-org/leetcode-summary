@@ -1,7 +1,13 @@
 ```json
 {
-  "frontend_id": 219,
-  "title": "Contains Duplicate II",
-  "techniques": ["hash map", "sliding window", "array traversal"]
+  "frontend_id": 866,
+  "title": "Prime Palindrome",
+  "techniques": [
+    "prime checking",
+    "palindrome generation",
+    "brute force",
+    "mathematical optimization",
+    "digit manipulation"
+  ]
 }
 ```

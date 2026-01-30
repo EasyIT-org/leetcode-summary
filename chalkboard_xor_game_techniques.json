@@ -1,0 +1,10 @@
+{
+  "frontend_id": 810,
+  "title": "Chalkboard XOR Game",
+  "techniques": [
+    "xor properties",
+    "game theory",
+    "parity analysis",
+    "bit manipulation"
+  ]
+}

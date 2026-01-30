@@ -1,0 +1,10 @@
+{
+  "frontend_id": 853,
+  "title": "Car Fleet",
+  "techniques": [
+    "sorting",
+    "monotonic stack",
+    "time calculation",
+    "car fleet simulation"
+  ]
+}

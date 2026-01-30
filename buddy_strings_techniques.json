@@ -1,0 +1,9 @@
+{
+  "frontend_id": 859,
+  "title": "Buddy Strings",
+  "techniques": [
+    "string comparison",
+    "character counting",
+    "edge case handling"
+  ]
+}

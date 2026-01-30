@@ -1,0 +1,10 @@
+{
+  "frontend_id": 315,
+  "title": "Count of Smaller Numbers After Self",
+  "techniques": [
+    "binary indexed tree",
+    "coordinate compression",
+    "reverse iteration",
+    "prefix sum query"
+  ]
+}

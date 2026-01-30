@@ -1,0 +1,10 @@
+{
+  "frontend_id": 843,
+  "title": "Guess the Word",
+  "techniques": [
+    "minimax strategy",
+    "candidate elimination",
+    "match counting",
+    "greedy selection"
+  ]
+}

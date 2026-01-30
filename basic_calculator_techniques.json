@@ -1,0 +1,10 @@
+{
+  "frontend_id": 224,
+  "title": "Basic Calculator",
+  "techniques": [
+    "stack",
+    "recursion",
+    "string parsing",
+    "operator precedence"
+  ]
+}

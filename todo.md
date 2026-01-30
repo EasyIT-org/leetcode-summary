@@ -213,506 +213,506 @@ Format: [ ] frontend_id title | slug
 - [x] 0217 Contains Duplicate | contains-duplicate
 - [x] 0218 The Skyline Problem | the-skyline-problem
 - [x] 0219 Contains Duplicate II | contains-duplicate-ii
-- [ ] 0220 Contains Duplicate III | contains-duplicate-iii
-- [ ] 0221 Maximal Square | maximal-square
-- [ ] 0222 Count Complete Tree Nodes | count-complete-tree-nodes
-- [ ] 0223 Rectangle Area | rectangle-area
-- [ ] 0224 Basic Calculator | basic-calculator
-- [ ] 0225 Implement Stack using Queues | implement-stack-using-queues
-- [ ] 0226 Invert Binary Tree | invert-binary-tree
-- [ ] 0227 Basic Calculator II | basic-calculator-ii
-- [ ] 0228 Summary Ranges | summary-ranges
-- [ ] 0229 Majority Element II | majority-element-ii
-- [ ] 0230 Kth Smallest Element in a BST | kth-smallest-element-in-a-bst
-- [ ] 0231 Power of Two | power-of-two
-- [ ] 0232 Implement Queue using Stacks | implement-queue-using-stacks
-- [ ] 0233 Number of Digit One | number-of-digit-one
-- [ ] 0234 Palindrome Linked List | palindrome-linked-list
-- [ ] 0235 Lowest Common Ancestor of a Binary Search Tree | lowest-common-ancestor-of-a-binary-search-tree
-- [ ] 0236 Lowest Common Ancestor of a Binary Tree | lowest-common-ancestor-of-a-binary-tree
-- [ ] 0237 Delete Node in a Linked List | delete-node-in-a-linked-list
-- [ ] 0238 Product of Array Except Self | product-of-array-except-self
-- [ ] 0239 Sliding Window Maximum | sliding-window-maximum
-- [ ] 0240 Search a 2D Matrix II | search-a-2d-matrix-ii
-- [ ] 0241 Different Ways to Add Parentheses | different-ways-to-add-parentheses
-- [ ] 0242 Valid Anagram | valid-anagram
-- [ ] 0257 Binary Tree Paths | binary-tree-paths
-- [ ] 0258 Add Digits | add-digits
-- [ ] 0260 Single Number III | single-number-iii
-- [ ] 0262 Trips and Users | trips-and-users
-- [ ] 0263 Ugly Number | ugly-number
-- [ ] 0264 Ugly Number II | ugly-number-ii
-- [ ] 0268 Missing Number | missing-number
-- [ ] 0273 Integer to English Words | integer-to-english-words
-- [ ] 0274 H-Index | h-index
-- [ ] 0275 H-Index II | h-index-ii
-- [ ] 0278 First Bad Version | first-bad-version
-- [ ] 0279 Perfect Squares | perfect-squares
-- [ ] 0282 Expression Add Operators | expression-add-operators
-- [ ] 0283 Move Zeroes | move-zeroes
-- [ ] 0284 Peeking Iterator | peeking-iterator
-- [ ] 0287 Find the Duplicate Number | find-the-duplicate-number
-- [ ] 0289 Game of Life | game-of-life
-- [ ] 0290 Word Pattern | word-pattern
-- [ ] 0292 Nim Game | nim-game
-- [ ] 0295 Find Median from Data Stream | find-median-from-data-stream
-- [ ] 0297 Serialize and Deserialize Binary Tree | serialize-and-deserialize-binary-tree
-- [ ] 0299 Bulls and Cows | bulls-and-cows
-- [ ] 0300 Longest Increasing Subsequence | longest-increasing-subsequence
-- [ ] 0301 Remove Invalid Parentheses | remove-invalid-parentheses
-- [ ] 0303 Range Sum Query - Immutable | range-sum-query-immutable
-- [ ] 0304 Range Sum Query 2D - Immutable | range-sum-query-2d-immutable
-- [ ] 0306 Additive Number | additive-number
-- [ ] 0307 Range Sum Query - Mutable | range-sum-query-mutable
-- [ ] 0309 Best Time to Buy and Sell Stock with Cooldown | best-time-to-buy-and-sell-stock-with-cooldown
-- [ ] 0310 Minimum Height Trees | minimum-height-trees
-- [ ] 0312 Burst Balloons | burst-balloons
-- [ ] 0313 Super Ugly Number | super-ugly-number
-- [ ] 0315 Count of Smaller Numbers After Self | count-of-smaller-numbers-after-self
-- [ ] 0316 Remove Duplicate Letters | remove-duplicate-letters
-- [ ] 0318 Maximum Product of Word Lengths | maximum-product-of-word-lengths
-- [ ] 0319 Bulb Switcher | bulb-switcher
-- [ ] 0321 Create Maximum Number | create-maximum-number
-- [ ] 0322 Coin Change | coin-change
-- [ ] 0324 Wiggle Sort II | wiggle-sort-ii
-- [ ] 0326 Power of Three | power-of-three
-- [ ] 0327 Count of Range Sum | count-of-range-sum
-- [ ] 0328 Odd Even Linked List | odd-even-linked-list
-- [ ] 0329 Longest Increasing Path in a Matrix | longest-increasing-path-in-a-matrix
-- [ ] 0330 Patching Array | patching-array
-- [ ] 0331 Verify Preorder Serialization of a Binary Tree | verify-preorder-serialization-of-a-binary-tree
-- [ ] 0332 Reconstruct Itinerary | reconstruct-itinerary
-- [ ] 0334 Increasing Triplet Subsequence | increasing-triplet-subsequence
-- [ ] 0335 Self Crossing | self-crossing
-- [ ] 0336 Palindrome Pairs | palindrome-pairs
-- [ ] 0337 House Robber III | house-robber-iii
-- [ ] 0338 Counting Bits | counting-bits
-- [ ] 0341 Flatten Nested List Iterator | flatten-nested-list-iterator
-- [ ] 0342 Power of Four | power-of-four
-- [ ] 0343 Integer Break | integer-break
-- [ ] 0344 Reverse String | reverse-string
-- [ ] 0345 Reverse Vowels of a String | reverse-vowels-of-a-string
-- [ ] 0347 Top K Frequent Elements | top-k-frequent-elements
-- [ ] 0349 Intersection of Two Arrays | intersection-of-two-arrays
-- [ ] 0350 Intersection of Two Arrays II | intersection-of-two-arrays-ii
-- [ ] 0352 Data Stream as Disjoint Intervals | data-stream-as-disjoint-intervals
-- [ ] 0354 Russian Doll Envelopes | russian-doll-envelopes
-- [ ] 0355 Design Twitter | design-twitter
-- [ ] 0357 Count Numbers with Unique Digits | count-numbers-with-unique-digits
-- [ ] 0363 Max Sum of Rectangle No Larger Than K | max-sum-of-rectangle-no-larger-than-k
-- [ ] 0365 Water and Jug Problem | water-and-jug-problem
-- [ ] 0367 Valid Perfect Square | valid-perfect-square
-- [ ] 0368 Largest Divisible Subset | largest-divisible-subset
-- [ ] 0371 Sum of Two Integers | sum-of-two-integers
-- [ ] 0372 Super Pow | super-pow
-- [ ] 0373 Find K Pairs with Smallest Sums | find-k-pairs-with-smallest-sums
-- [ ] 0374 Guess Number Higher or Lower | guess-number-higher-or-lower
-- [ ] 0375 Guess Number Higher or Lower II | guess-number-higher-or-lower-ii
-- [ ] 0376 Wiggle Subsequence | wiggle-subsequence
-- [ ] 0377 Combination Sum IV | combination-sum-iv
-- [ ] 0378 Kth Smallest Element in a Sorted Matrix | kth-smallest-element-in-a-sorted-matrix
-- [ ] 0380 Insert Delete GetRandom O(1) | insert-delete-getrandom-o1
-- [ ] 0381 Insert Delete GetRandom O(1) - Duplicates allowed | insert-delete-getrandom-o1-duplicates-allowed
-- [ ] 0382 Linked List Random Node | linked-list-random-node
-- [ ] 0383 Ransom Note | ransom-note
-- [ ] 0384 Shuffle an Array | shuffle-an-array
-- [ ] 0385 Mini Parser | mini-parser
-- [ ] 0386 Lexicographical Numbers | lexicographical-numbers
-- [ ] 0387 First Unique Character in a String | first-unique-character-in-a-string
-- [ ] 0388 Longest Absolute File Path | longest-absolute-file-path
-- [ ] 0389 Find the Difference | find-the-difference
-- [ ] 0390 Elimination Game | elimination-game
-- [ ] 0391 Perfect Rectangle | perfect-rectangle
-- [ ] 0392 Is Subsequence | is-subsequence
-- [ ] 0393 UTF-8 Validation | utf-8-validation
-- [ ] 0394 Decode String | decode-string
-- [ ] 0395 Longest Substring with At Least K Repeating Characters | longest-substring-with-at-least-k-repeating-characters
-- [ ] 0396 Rotate Function | rotate-function
-- [ ] 0397 Integer Replacement | integer-replacement
-- [ ] 0398 Random Pick Index | random-pick-index
-- [ ] 0399 Evaluate Division | evaluate-division
-- [ ] 0400 Nth Digit | nth-digit
-- [ ] 0401 Binary Watch | binary-watch
-- [ ] 0402 Remove K Digits | remove-k-digits
-- [ ] 0403 Frog Jump | frog-jump
-- [ ] 0404 Sum of Left Leaves | sum-of-left-leaves
-- [ ] 0405 Convert a Number to Hexadecimal | convert-a-number-to-hexadecimal
-- [ ] 0406 Queue Reconstruction by Height | queue-reconstruction-by-height
-- [ ] 0407 Trapping Rain Water II | trapping-rain-water-ii
-- [ ] 0409 Longest Palindrome | longest-palindrome
-- [ ] 0410 Split Array Largest Sum | split-array-largest-sum
-- [ ] 0412 Fizz Buzz | fizz-buzz
-- [ ] 0413 Arithmetic Slices | arithmetic-slices
-- [ ] 0414 Third Maximum Number | third-maximum-number
-- [ ] 0415 Add Strings | add-strings
-- [ ] 0416 Partition Equal Subset Sum | partition-equal-subset-sum
-- [ ] 0417 Pacific Atlantic Water Flow | pacific-atlantic-water-flow
-- [ ] 0419 Battleships in a Board | battleships-in-a-board
-- [ ] 0420 Strong Password Checker | strong-password-checker
-- [ ] 0421 Maximum XOR of Two Numbers in an Array | maximum-xor-of-two-numbers-in-an-array
-- [ ] 0423 Reconstruct Original Digits from English | reconstruct-original-digits-from-english
-- [ ] 0424 Longest Repeating Character Replacement | longest-repeating-character-replacement
-- [ ] 0427 Construct Quad Tree | construct-quad-tree
-- [ ] 0429 N-ary Tree Level Order Traversal | n-ary-tree-level-order-traversal
-- [ ] 0430 Flatten a Multilevel Doubly Linked List | flatten-a-multilevel-doubly-linked-list
-- [ ] 0432 All O`one Data Structure | all-oone-data-structure
-- [ ] 0433 Minimum Genetic Mutation | minimum-genetic-mutation
-- [ ] 0434 Number of Segments in a String | number-of-segments-in-a-string
-- [ ] 0435 Non-overlapping Intervals | non-overlapping-intervals
-- [ ] 0437 Path Sum III | path-sum-iii
-- [ ] 0438 Find All Anagrams in a String | find-all-anagrams-in-a-string
-- [ ] 0440 K-th Smallest in Lexicographical Order | k-th-smallest-in-lexicographical-order
-- [ ] 0441 Arranging Coins | arranging-coins
-- [ ] 0442 Find All Duplicates in an Array | find-all-duplicates-in-an-array
-- [ ] 0443 String Compression | string-compression
-- [ ] 0445 Add Two Numbers II | add-two-numbers-ii
-- [ ] 0446 Arithmetic Slices II - Subsequence | arithmetic-slices-ii-subsequence
-- [ ] 0447 Number of Boomerangs | number-of-boomerangs
-- [ ] 0448 Find All Numbers Disappeared in an Array | find-all-numbers-disappeared-in-an-array
-- [ ] 0449 Serialize and Deserialize BST | serialize-and-deserialize-bst
-- [ ] 0450 Delete Node in a BST | delete-node-in-a-bst
-- [ ] 0451 Sort Characters By Frequency | sort-characters-by-frequency
-- [ ] 0452 Minimum Number of Arrows to Burst Balloons | minimum-number-of-arrows-to-burst-balloons
-- [ ] 0453 Minimum Moves to Equal Array Elements | minimum-moves-to-equal-array-elements
-- [ ] 0454 4Sum II | 4sum-ii
-- [ ] 0455 Assign Cookies | assign-cookies
-- [ ] 0456 132 Pattern | 132-pattern
-- [ ] 0457 Circular Array Loop | circular-array-loop
-- [ ] 0458 Poor Pigs | poor-pigs
-- [ ] 0459 Repeated Substring Pattern | repeated-substring-pattern
-- [ ] 0460 LFU Cache | lfu-cache
-- [ ] 0461 Hamming Distance | hamming-distance
-- [ ] 0462 Minimum Moves to Equal Array Elements II | minimum-moves-to-equal-array-elements-ii
-- [ ] 0463 Island Perimeter | island-perimeter
-- [ ] 0464 Can I Win | can-i-win
-- [ ] 0466 Count The Repetitions | count-the-repetitions
-- [ ] 0467 Unique Substrings in Wraparound String | unique-substrings-in-wraparound-string
-- [ ] 0468 Validate IP Address | validate-ip-address
-- [ ] 0470 Implement Rand10() Using Rand7() | implement-rand10-using-rand7
-- [ ] 0472 Concatenated Words | concatenated-words
-- [ ] 0473 Matchsticks to Square | matchsticks-to-square
-- [ ] 0474 Ones and Zeroes | ones-and-zeroes
-- [ ] 0475 Heaters | heaters
-- [ ] 0476 Number Complement | number-complement
-- [ ] 0477 Total Hamming Distance | total-hamming-distance
-- [ ] 0478 Generate Random Point in a Circle | generate-random-point-in-a-circle
-- [ ] 0479 Largest Palindrome Product | largest-palindrome-product
-- [ ] 0480 Sliding Window Median | sliding-window-median
-- [ ] 0481 Magical String | magical-string
-- [ ] 0482 License Key Formatting | license-key-formatting
-- [ ] 0483 Smallest Good Base | smallest-good-base
-- [ ] 0485 Max Consecutive Ones | max-consecutive-ones
-- [ ] 0486 Predict the Winner | predict-the-winner
-- [ ] 0488 Zuma Game | zuma-game
-- [ ] 0491 Non-decreasing Subsequences | non-decreasing-subsequences
-- [ ] 0492 Construct the Rectangle | construct-the-rectangle
-- [ ] 0493 Reverse Pairs | reverse-pairs
-- [ ] 0494 Target Sum | target-sum
-- [ ] 0495 Teemo Attacking | teemo-attacking
-- [ ] 0496 Next Greater Element I | next-greater-element-i
-- [ ] 0497 Random Point in Non-overlapping Rectangles | random-point-in-non-overlapping-rectangles
-- [ ] 0498 Diagonal Traverse | diagonal-traverse
-- [ ] 0500 Keyboard Row | keyboard-row
-- [ ] 0501 Find Mode in Binary Search Tree | find-mode-in-binary-search-tree
-- [ ] 0502 IPO | ipo
-- [ ] 0503 Next Greater Element II | next-greater-element-ii
-- [ ] 0504 Base 7 | base-7
-- [ ] 0506 Relative Ranks | relative-ranks
-- [ ] 0507 Perfect Number | perfect-number
-- [ ] 0508 Most Frequent Subtree Sum | most-frequent-subtree-sum
-- [ ] 0509 Fibonacci Number | fibonacci-number
-- [ ] 0511 Game Play Analysis I | game-play-analysis-i
-- [ ] 0513 Find Bottom Left Tree Value | find-bottom-left-tree-value
-- [ ] 0514 Freedom Trail | freedom-trail
-- [ ] 0515 Find Largest Value in Each Tree Row | find-largest-value-in-each-tree-row
-- [ ] 0516 Longest Palindromic Subsequence | longest-palindromic-subsequence
-- [ ] 0517 Super Washing Machines | super-washing-machines
-- [ ] 0518 Coin Change II | coin-change-ii
-- [ ] 0519 Random Flip Matrix | random-flip-matrix
-- [ ] 0520 Detect Capital | detect-capital
-- [ ] 0521 Longest Uncommon Subsequence I | longest-uncommon-subsequence-i
-- [ ] 0522 Longest Uncommon Subsequence II | longest-uncommon-subsequence-ii
-- [ ] 0523 Continuous Subarray Sum | continuous-subarray-sum
-- [ ] 0524 Longest Word in Dictionary through Deleting | longest-word-in-dictionary-through-deleting
-- [ ] 0525 Contiguous Array | contiguous-array
-- [ ] 0526 Beautiful Arrangement | beautiful-arrangement
-- [ ] 0528 Random Pick with Weight | random-pick-with-weight
-- [ ] 0529 Minesweeper | minesweeper
-- [ ] 0530 Minimum Absolute Difference in BST | minimum-absolute-difference-in-bst
-- [ ] 0532 K-diff Pairs in an Array | k-diff-pairs-in-an-array
-- [ ] 0535 Encode and Decode TinyURL | encode-and-decode-tinyurl
-- [ ] 0537 Complex Number Multiplication | complex-number-multiplication
-- [ ] 0538 Convert BST to Greater Tree | convert-bst-to-greater-tree
-- [ ] 0539 Minimum Time Difference | minimum-time-difference
-- [ ] 0540 Single Element in a Sorted Array | single-element-in-a-sorted-array
-- [ ] 0541 Reverse String II | reverse-string-ii
-- [ ] 0542 01 Matrix | 01-matrix
-- [ ] 0543 Diameter of Binary Tree | diameter-of-binary-tree
-- [ ] 0546 Remove Boxes | remove-boxes
-- [ ] 0547 Number of Provinces | number-of-provinces
-- [ ] 0550 Game Play Analysis IV | game-play-analysis-iv
-- [ ] 0551 Student Attendance Record I | student-attendance-record-i
-- [ ] 0552 Student Attendance Record II | student-attendance-record-ii
-- [ ] 0553 Optimal Division | optimal-division
-- [ ] 0554 Brick Wall | brick-wall
-- [ ] 0556 Next Greater Element III | next-greater-element-iii
-- [ ] 0557 Reverse Words in a String III | reverse-words-in-a-string-iii
-- [ ] 0558 Logical OR of Two Binary Grids Represented as Quad-Trees | logical-or-of-two-binary-grids-represented-as-quad-trees
-- [ ] 0559 Maximum Depth of N-ary Tree | maximum-depth-of-n-ary-tree
-- [ ] 0560 Subarray Sum Equals K | subarray-sum-equals-k
-- [ ] 0561 Array Partition | array-partition
-- [ ] 0563 Binary Tree Tilt | binary-tree-tilt
-- [ ] 0564 Find the Closest Palindrome | find-the-closest-palindrome
-- [ ] 0565 Array Nesting | array-nesting
-- [ ] 0566 Reshape the Matrix | reshape-the-matrix
-- [ ] 0567 Permutation in String | permutation-in-string
-- [ ] 0570 Managers with at Least 5 Direct Reports | managers-with-at-least-5-direct-reports
-- [ ] 0572 Subtree of Another Tree | subtree-of-another-tree
-- [ ] 0575 Distribute Candies | distribute-candies
-- [ ] 0576 Out of Boundary Paths | out-of-boundary-paths
-- [ ] 0577 Employee Bonus | employee-bonus
-- [ ] 0581 Shortest Unsorted Continuous Subarray | shortest-unsorted-continuous-subarray
-- [ ] 0583 Delete Operation for Two Strings | delete-operation-for-two-strings
-- [ ] 0584 Find Customer Referee | find-customer-referee
-- [ ] 0585 Investments in 2016 | investments-in-2016
-- [ ] 0586 Customer Placing the Largest Number of Orders | customer-placing-the-largest-number-of-orders
-- [ ] 0587 Erect the Fence | erect-the-fence
-- [ ] 0589 N-ary Tree Preorder Traversal | n-ary-tree-preorder-traversal
-- [ ] 0590 N-ary Tree Postorder Traversal | n-ary-tree-postorder-traversal
-- [ ] 0591 Tag Validator | tag-validator
-- [ ] 0592 Fraction Addition and Subtraction | fraction-addition-and-subtraction
-- [ ] 0593 Valid Square | valid-square
-- [ ] 0594 Longest Harmonious Subsequence | longest-harmonious-subsequence
-- [ ] 0595 Big Countries | big-countries
-- [ ] 0596 Classes With at Least 5 Students | classes-with-at-least-5-students
-- [ ] 0598 Range Addition II | range-addition-ii
-- [ ] 0599 Minimum Index Sum of Two Lists | minimum-index-sum-of-two-lists
-- [ ] 0600 Non-negative Integers without Consecutive Ones | non-negative-integers-without-consecutive-ones
-- [ ] 0601 Human Traffic of Stadium | human-traffic-of-stadium
-- [ ] 0602 Friend Requests II: Who Has the Most Friends | friend-requests-ii-who-has-the-most-friends
-- [ ] 0605 Can Place Flowers | can-place-flowers
-- [ ] 0606 Construct String from Binary Tree | construct-string-from-binary-tree
-- [ ] 0607 Sales Person | sales-person
-- [ ] 0608 Tree Node | tree-node
-- [ ] 0609 Find Duplicate File in System | find-duplicate-file-in-system
-- [ ] 0610 Triangle Judgement | triangle-judgement
-- [ ] 0611 Valid Triangle Number | valid-triangle-number
-- [ ] 0617 Merge Two Binary Trees | merge-two-binary-trees
-- [ ] 0619 Biggest Single Number | biggest-single-number
-- [ ] 0620 Not Boring Movies | not-boring-movies
-- [ ] 0621 Task Scheduler | task-scheduler
-- [ ] 0622 Design Circular Queue | design-circular-queue
-- [ ] 0623 Add One Row to Tree | add-one-row-to-tree
-- [ ] 0624 Maximum Distance in Arrays | maximum-distance-in-arrays
-- [ ] 0626 Exchange Seats | exchange-seats
-- [ ] 0627 Swap Salary | swap-salary
-- [ ] 0628 Maximum Product of Three Numbers | maximum-product-of-three-numbers
-- [ ] 0629 K Inverse Pairs Array | k-inverse-pairs-array
-- [ ] 0630 Course Schedule III | course-schedule-iii
-- [ ] 0632 Smallest Range Covering Elements from K Lists | smallest-range-covering-elements-from-k-lists
-- [ ] 0633 Sum of Square Numbers | sum-of-square-numbers
-- [ ] 0636 Exclusive Time of Functions | exclusive-time-of-functions
-- [ ] 0637 Average of Levels in Binary Tree | average-of-levels-in-binary-tree
-- [ ] 0638 Shopping Offers | shopping-offers
-- [ ] 0639 Decode Ways II | decode-ways-ii
-- [ ] 0640 Solve the Equation | solve-the-equation
-- [ ] 0641 Design Circular Deque | design-circular-deque
-- [ ] 0643 Maximum Average Subarray I | maximum-average-subarray-i
-- [ ] 0645 Set Mismatch | set-mismatch
-- [ ] 0646 Maximum Length of Pair Chain | maximum-length-of-pair-chain
-- [ ] 0647 Palindromic Substrings | palindromic-substrings
-- [ ] 0648 Replace Words | replace-words
-- [ ] 0649 Dota2 Senate | dota2-senate
-- [ ] 0650 2 Keys Keyboard | 2-keys-keyboard
-- [ ] 0652 Find Duplicate Subtrees | find-duplicate-subtrees
-- [ ] 0653 Two Sum IV - Input is a BST | two-sum-iv-input-is-a-bst
-- [ ] 0654 Maximum Binary Tree | maximum-binary-tree
-- [ ] 0655 Print Binary Tree | print-binary-tree
-- [ ] 0657 Robot Return to Origin | robot-return-to-origin
-- [ ] 0658 Find K Closest Elements | find-k-closest-elements
-- [ ] 0659 Split Array into Consecutive Subsequences | split-array-into-consecutive-subsequences
-- [ ] 0661 Image Smoother | image-smoother
-- [ ] 0662 Maximum Width of Binary Tree | maximum-width-of-binary-tree
-- [ ] 0664 Strange Printer | strange-printer
-- [ ] 0665 Non-decreasing Array | non-decreasing-array
-- [ ] 0667 Beautiful Arrangement II | beautiful-arrangement-ii
-- [ ] 0668 Kth Smallest Number in Multiplication Table | kth-smallest-number-in-multiplication-table
-- [ ] 0669 Trim a Binary Search Tree | trim-a-binary-search-tree
-- [ ] 0670 Maximum Swap | maximum-swap
-- [ ] 0671 Second Minimum Node In a Binary Tree | second-minimum-node-in-a-binary-tree
-- [ ] 0672 Bulb Switcher II | bulb-switcher-ii
-- [ ] 0673 Number of Longest Increasing Subsequence | number-of-longest-increasing-subsequence
-- [ ] 0674 Longest Continuous Increasing Subsequence | longest-continuous-increasing-subsequence
-- [ ] 0675 Cut Off Trees for Golf Event | cut-off-trees-for-golf-event
-- [ ] 0676 Implement Magic Dictionary | implement-magic-dictionary
-- [ ] 0677 Map Sum Pairs | map-sum-pairs
-- [ ] 0678 Valid Parenthesis String | valid-parenthesis-string
-- [ ] 0679 24 Game | 24-game
-- [ ] 0680 Valid Palindrome II | valid-palindrome-ii
-- [ ] 0682 Baseball Game | baseball-game
-- [ ] 0684 Redundant Connection | redundant-connection
-- [ ] 0685 Redundant Connection II | redundant-connection-ii
-- [ ] 0686 Repeated String Match | repeated-string-match
-- [ ] 0687 Longest Univalue Path | longest-univalue-path
-- [ ] 0688 Knight Probability in Chessboard | knight-probability-in-chessboard
-- [ ] 0689 Maximum Sum of 3 Non-Overlapping Subarrays | maximum-sum-of-3-non-overlapping-subarrays
-- [ ] 0690 Employee Importance | employee-importance
-- [ ] 0691 Stickers to Spell Word | stickers-to-spell-word
-- [ ] 0692 Top K Frequent Words | top-k-frequent-words
-- [ ] 0693 Binary Number with Alternating Bits | binary-number-with-alternating-bits
-- [ ] 0695 Max Area of Island | max-area-of-island
-- [ ] 0696 Count Binary Substrings | count-binary-substrings
-- [ ] 0697 Degree of an Array | degree-of-an-array
-- [ ] 0698 Partition to K Equal Sum Subsets | partition-to-k-equal-sum-subsets
-- [ ] 0699 Falling Squares | falling-squares
-- [ ] 0700 Search in a Binary Search Tree | search-in-a-binary-search-tree
-- [ ] 0701 Insert into a Binary Search Tree | insert-into-a-binary-search-tree
-- [ ] 0703 Kth Largest Element in a Stream | kth-largest-element-in-a-stream
-- [ ] 0704 Binary Search | binary-search
-- [ ] 0705 Design HashSet | design-hashset
-- [ ] 0706 Design HashMap | design-hashmap
-- [ ] 0707 Design Linked List | design-linked-list
-- [ ] 0709 To Lower Case | to-lower-case
-- [ ] 0710 Random Pick with Blacklist | random-pick-with-blacklist
-- [ ] 0712 Minimum ASCII Delete Sum for Two Strings | minimum-ascii-delete-sum-for-two-strings
-- [ ] 0713 Subarray Product Less Than K | subarray-product-less-than-k
-- [ ] 0714 Best Time to Buy and Sell Stock with Transaction Fee | best-time-to-buy-and-sell-stock-with-transaction-fee
-- [ ] 0715 Range Module | range-module
-- [ ] 0717 1-bit and 2-bit Characters | 1-bit-and-2-bit-characters
-- [ ] 0718 Maximum Length of Repeated Subarray | maximum-length-of-repeated-subarray
-- [ ] 0719 Find K-th Smallest Pair Distance | find-k-th-smallest-pair-distance
-- [ ] 0720 Longest Word in Dictionary | longest-word-in-dictionary
-- [ ] 0721 Accounts Merge | accounts-merge
-- [ ] 0722 Remove Comments | remove-comments
-- [ ] 0724 Find Pivot Index | find-pivot-index
-- [ ] 0725 Split Linked List in Parts | split-linked-list-in-parts
-- [ ] 0726 Number of Atoms | number-of-atoms
-- [ ] 0728 Self Dividing Numbers | self-dividing-numbers
-- [ ] 0729 My Calendar I | my-calendar-i
-- [ ] 0730 Count Different Palindromic Subsequences | count-different-palindromic-subsequences
-- [ ] 0731 My Calendar II | my-calendar-ii
-- [ ] 0732 My Calendar III | my-calendar-iii
-- [ ] 0733 Flood Fill | flood-fill
-- [ ] 0735 Asteroid Collision | asteroid-collision
-- [ ] 0736 Parse Lisp Expression | parse-lisp-expression
-- [ ] 0738 Monotone Increasing Digits | monotone-increasing-digits
-- [ ] 0739 Daily Temperatures | daily-temperatures
-- [ ] 0740 Delete and Earn | delete-and-earn
-- [ ] 0741 Cherry Pickup | cherry-pickup
-- [ ] 0743 Network Delay Time | network-delay-time
-- [ ] 0744 Find Smallest Letter Greater Than Target | find-smallest-letter-greater-than-target
-- [ ] 0745 Prefix and Suffix Search | prefix-and-suffix-search
-- [ ] 0746 Min Cost Climbing Stairs | min-cost-climbing-stairs
-- [ ] 0747 Largest Number At Least Twice of Others | largest-number-at-least-twice-of-others
-- [ ] 0748 Shortest Completing Word | shortest-completing-word
-- [ ] 0749 Contain Virus | contain-virus
-- [ ] 0752 Open the Lock | open-the-lock
-- [ ] 0753 Cracking the Safe | cracking-the-safe
-- [ ] 0754 Reach a Number | reach-a-number
-- [ ] 0756 Pyramid Transition Matrix | pyramid-transition-matrix
-- [ ] 0757 Set Intersection Size At Least Two | set-intersection-size-at-least-two
-- [ ] 0761 Special Binary String | special-binary-string
-- [ ] 0762 Prime Number of Set Bits in Binary Representation | prime-number-of-set-bits-in-binary-representation
-- [ ] 0763 Partition Labels | partition-labels
-- [ ] 0764 Largest Plus Sign | largest-plus-sign
-- [ ] 0765 Couples Holding Hands | couples-holding-hands
-- [ ] 0766 Toeplitz Matrix | toeplitz-matrix
-- [ ] 0767 Reorganize String | reorganize-string
-- [ ] 0768 Max Chunks To Make Sorted II | max-chunks-to-make-sorted-ii
-- [ ] 0769 Max Chunks To Make Sorted | max-chunks-to-make-sorted
-- [ ] 0770 Basic Calculator IV | basic-calculator-iv
-- [ ] 0771 Jewels and Stones | jewels-and-stones
-- [ ] 0773 Sliding Puzzle | sliding-puzzle
-- [ ] 0775 Global and Local Inversions | global-and-local-inversions
-- [ ] 0777 Swap Adjacent in LR String | swap-adjacent-in-lr-string
-- [ ] 0778 Swim in Rising Water | swim-in-rising-water
-- [ ] 0779 K-th Symbol in Grammar | k-th-symbol-in-grammar
-- [ ] 0780 Reaching Points | reaching-points
-- [ ] 0781 Rabbits in Forest | rabbits-in-forest
-- [ ] 0782 Transform to Chessboard | transform-to-chessboard
-- [ ] 0783 Minimum Distance Between BST Nodes | minimum-distance-between-bst-nodes
-- [ ] 0784 Letter Case Permutation | letter-case-permutation
-- [ ] 0785 Is Graph Bipartite? | is-graph-bipartite
-- [ ] 0786 K-th Smallest Prime Fraction | k-th-smallest-prime-fraction
-- [ ] 0787 Cheapest Flights Within K Stops | cheapest-flights-within-k-stops
-- [ ] 0788 Rotated Digits | rotated-digits
-- [ ] 0789 Escape The Ghosts | escape-the-ghosts
-- [ ] 0790 Domino and Tromino Tiling | domino-and-tromino-tiling
-- [ ] 0791 Custom Sort String | custom-sort-string
-- [ ] 0792 Number of Matching Subsequences | number-of-matching-subsequences
-- [ ] 0793 Preimage Size of Factorial Zeroes Function | preimage-size-of-factorial-zeroes-function
-- [ ] 0794 Valid Tic-Tac-Toe State | valid-tic-tac-toe-state
-- [ ] 0795 Number of Subarrays with Bounded Maximum | number-of-subarrays-with-bounded-maximum
-- [ ] 0796 Rotate String | rotate-string
-- [ ] 0797 All Paths From Source to Target | all-paths-from-source-to-target
-- [ ] 0798 Smallest Rotation with Highest Score | smallest-rotation-with-highest-score
-- [ ] 0799 Champagne Tower | champagne-tower
-- [ ] 0801 Minimum Swaps To Make Sequences Increasing | minimum-swaps-to-make-sequences-increasing
-- [ ] 0802 Find Eventual Safe States | find-eventual-safe-states
-- [ ] 0803 Bricks Falling When Hit | bricks-falling-when-hit
-- [ ] 0804 Unique Morse Code Words | unique-morse-code-words
-- [ ] 0805 Split Array With Same Average | split-array-with-same-average
-- [ ] 0806 Number of Lines To Write String | number-of-lines-to-write-string
-- [ ] 0807 Max Increase to Keep City Skyline | max-increase-to-keep-city-skyline
-- [ ] 0808 Soup Servings | soup-servings
-- [ ] 0809 Expressive Words | expressive-words
-- [ ] 0810 Chalkboard XOR Game | chalkboard-xor-game
-- [ ] 0811 Subdomain Visit Count | subdomain-visit-count
-- [ ] 0812 Largest Triangle Area | largest-triangle-area
-- [ ] 0813 Largest Sum of Averages | largest-sum-of-averages
-- [ ] 0814 Binary Tree Pruning | binary-tree-pruning
-- [ ] 0815 Bus Routes | bus-routes
-- [ ] 0816 Ambiguous Coordinates | ambiguous-coordinates
-- [ ] 0817 Linked List Components | linked-list-components
-- [ ] 0818 Race Car | race-car
-- [ ] 0819 Most Common Word | most-common-word
-- [ ] 0820 Short Encoding of Words | short-encoding-of-words
-- [ ] 0821 Shortest Distance to a Character | shortest-distance-to-a-character
-- [ ] 0822 Card Flipping Game | card-flipping-game
-- [ ] 0823 Binary Trees With Factors | binary-trees-with-factors
-- [ ] 0824 Goat Latin | goat-latin
-- [ ] 0825 Friends Of Appropriate Ages | friends-of-appropriate-ages
-- [ ] 0826 Most Profit Assigning Work | most-profit-assigning-work
-- [ ] 0827 Making A Large Island | making-a-large-island
-- [ ] 0828 Count Unique Characters of All Substrings of a Given String | count-unique-characters-of-all-substrings-of-a-given-string
-- [ ] 0829 Consecutive Numbers Sum | consecutive-numbers-sum
-- [ ] 0830 Positions of Large Groups | positions-of-large-groups
-- [ ] 0831 Masking Personal Information | masking-personal-information
-- [ ] 0832 Flipping an Image | flipping-an-image
-- [ ] 0833 Find And Replace in String | find-and-replace-in-string
-- [ ] 0834 Sum of Distances in Tree | sum-of-distances-in-tree
-- [ ] 0835 Image Overlap | image-overlap
-- [ ] 0836 Rectangle Overlap | rectangle-overlap
-- [ ] 0837 New 21 Game | new-21-game
-- [ ] 0838 Push Dominoes | push-dominoes
-- [ ] 0839 Similar String Groups | similar-string-groups
-- [ ] 0840 Magic Squares In Grid | magic-squares-in-grid
-- [ ] 0841 Keys and Rooms | keys-and-rooms
-- [ ] 0842 Split Array into Fibonacci Sequence | split-array-into-fibonacci-sequence
-- [ ] 0843 Guess the Word | guess-the-word
-- [ ] 0844 Backspace String Compare | backspace-string-compare
-- [ ] 0845 Longest Mountain in Array | longest-mountain-in-array
-- [ ] 0846 Hand of Straights | hand-of-straights
-- [ ] 0847 Shortest Path Visiting All Nodes | shortest-path-visiting-all-nodes
-- [ ] 0848 Shifting Letters | shifting-letters
-- [ ] 0849 Maximize Distance to Closest Person | maximize-distance-to-closest-person
-- [ ] 0850 Rectangle Area II | rectangle-area-ii
-- [ ] 0851 Loud and Rich | loud-and-rich
-- [ ] 0852 Peak Index in a Mountain Array | peak-index-in-a-mountain-array
-- [ ] 0853 Car Fleet | car-fleet
-- [ ] 0854 K-Similar Strings | k-similar-strings
-- [ ] 0855 Exam Room | exam-room
-- [ ] 0856 Score of Parentheses | score-of-parentheses
-- [ ] 0857 Minimum Cost to Hire K Workers | minimum-cost-to-hire-k-workers
-- [ ] 0858 Mirror Reflection | mirror-reflection
-- [ ] 0859 Buddy Strings | buddy-strings
-- [ ] 0860 Lemonade Change | lemonade-change
-- [ ] 0861 Score After Flipping Matrix | score-after-flipping-matrix
-- [ ] 0862 Shortest Subarray with Sum at Least K | shortest-subarray-with-sum-at-least-k
-- [ ] 0863 All Nodes Distance K in Binary Tree | all-nodes-distance-k-in-binary-tree
-- [ ] 0864 Shortest Path to Get All Keys | shortest-path-to-get-all-keys
-- [ ] 0865 Smallest Subtree with all the Deepest Nodes | smallest-subtree-with-all-the-deepest-nodes
-- [ ] 0866 Prime Palindrome | prime-palindrome
+- [x] 0220 Contains Duplicate III | contains-duplicate-iii
+- [x] 0221 Maximal Square | maximal-square
+- [x] 0222 Count Complete Tree Nodes | count-complete-tree-nodes
+- [x] 0223 Rectangle Area | rectangle-area
+- [x] 0224 Basic Calculator | basic-calculator
+- [x] 0225 Implement Stack using Queues | implement-stack-using-queues
+- [x] 0226 Invert Binary Tree | invert-binary-tree
+- [x] 0227 Basic Calculator II | basic-calculator-ii
+- [x] 0228 Summary Ranges | summary-ranges
+- [x] 0229 Majority Element II | majority-element-ii
+- [x] 0230 Kth Smallest Element in a BST | kth-smallest-element-in-a-bst
+- [x] 0231 Power of Two | power-of-two
+- [x] 0232 Implement Queue using Stacks | implement-queue-using-stacks
+- [x] 0233 Number of Digit One | number-of-digit-one
+- [x] 0234 Palindrome Linked List | palindrome-linked-list
+- [x] 0235 Lowest Common Ancestor of a Binary Search Tree | lowest-common-ancestor-of-a-binary-search-tree
+- [x] 0236 Lowest Common Ancestor of a Binary Tree | lowest-common-ancestor-of-a-binary-tree
+- [x] 0237 Delete Node in a Linked List | delete-node-in-a-linked-list
+- [x] 0238 Product of Array Except Self | product-of-array-except-self
+- [x] 0239 Sliding Window Maximum | sliding-window-maximum
+- [x] 0240 Search a 2D Matrix II | search-a-2d-matrix-ii
+- [x] 0241 Different Ways to Add Parentheses | different-ways-to-add-parentheses
+- [x] 0242 Valid Anagram | valid-anagram
+- [x] 0257 Binary Tree Paths | binary-tree-paths
+- [x] 0258 Add Digits | add-digits
+- [x] 0260 Single Number III | single-number-iii
+- [x] 0262 Trips and Users | trips-and-users
+- [x] 0263 Ugly Number | ugly-number
+- [x] 0264 Ugly Number II | ugly-number-ii
+- [x] 0268 Missing Number | missing-number
+- [x] 0273 Integer to English Words | integer-to-english-words
+- [x] 0274 H-Index | h-index
+- [x] 0275 H-Index II | h-index-ii
+- [x] 0278 First Bad Version | first-bad-version
+- [x] 0279 Perfect Squares | perfect-squares
+- [x] 0282 Expression Add Operators | expression-add-operators
+- [x] 0283 Move Zeroes | move-zeroes
+- [x] 0284 Peeking Iterator | peeking-iterator
+- [x] 0287 Find the Duplicate Number | find-the-duplicate-number
+- [x] 0289 Game of Life | game-of-life
+- [x] 0290 Word Pattern | word-pattern
+- [x] 0292 Nim Game | nim-game
+- [x] 0295 Find Median from Data Stream | find-median-from-data-stream
+- [x] 0297 Serialize and Deserialize Binary Tree | serialize-and-deserialize-binary-tree
+- [x] 0299 Bulls and Cows | bulls-and-cows
+- [x] 0300 Longest Increasing Subsequence | longest-increasing-subsequence
+- [x] 0301 Remove Invalid Parentheses | remove-invalid-parentheses
+- [x] 0303 Range Sum Query - Immutable | range-sum-query-immutable
+- [x] 0304 Range Sum Query 2D - Immutable | range-sum-query-2d-immutable
+- [x] 0306 Additive Number | additive-number
+- [x] 0307 Range Sum Query - Mutable | range-sum-query-mutable
+- [x] 0309 Best Time to Buy and Sell Stock with Cooldown | best-time-to-buy-and-sell-stock-with-cooldown
+- [x] 0310 Minimum Height Trees | minimum-height-trees
+- [x] 0312 Burst Balloons | burst-balloons
+- [x] 0313 Super Ugly Number | super-ugly-number
+- [x] 0315 Count of Smaller Numbers After Self | count-of-smaller-numbers-after-self
+- [x] 0316 Remove Duplicate Letters | remove-duplicate-letters
+- [x] 0318 Maximum Product of Word Lengths | maximum-product-of-word-lengths
+- [x] 0319 Bulb Switcher | bulb-switcher
+- [x] 0321 Create Maximum Number | create-maximum-number
+- [x] 0322 Coin Change | coin-change
+- [x] 0324 Wiggle Sort II | wiggle-sort-ii
+- [x] 0326 Power of Three | power-of-three
+- [x] 0327 Count of Range Sum | count-of-range-sum
+- [x] 0328 Odd Even Linked List | odd-even-linked-list
+- [x] 0329 Longest Increasing Path in a Matrix | longest-increasing-path-in-a-matrix
+- [x] 0330 Patching Array | patching-array
+- [x] 0331 Verify Preorder Serialization of a Binary Tree | verify-preorder-serialization-of-a-binary-tree
+- [x] 0332 Reconstruct Itinerary | reconstruct-itinerary
+- [x] 0334 Increasing Triplet Subsequence | increasing-triplet-subsequence
+- [x] 0335 Self Crossing | self-crossing
+- [x] 0336 Palindrome Pairs | palindrome-pairs
+- [x] 0337 House Robber III | house-robber-iii
+- [x] 0338 Counting Bits | counting-bits
+- [x] 0341 Flatten Nested List Iterator | flatten-nested-list-iterator
+- [x] 0342 Power of Four | power-of-four
+- [x] 0343 Integer Break | integer-break
+- [x] 0344 Reverse String | reverse-string
+- [x] 0345 Reverse Vowels of a String | reverse-vowels-of-a-string
+- [x] 0347 Top K Frequent Elements | top-k-frequent-elements
+- [x] 0349 Intersection of Two Arrays | intersection-of-two-arrays
+- [x] 0350 Intersection of Two Arrays II | intersection-of-two-arrays-ii
+- [x] 0352 Data Stream as Disjoint Intervals | data-stream-as-disjoint-intervals
+- [x] 0354 Russian Doll Envelopes | russian-doll-envelopes
+- [x] 0355 Design Twitter | design-twitter
+- [x] 0357 Count Numbers with Unique Digits | count-numbers-with-unique-digits
+- [x] 0363 Max Sum of Rectangle No Larger Than K | max-sum-of-rectangle-no-larger-than-k
+- [x] 0365 Water and Jug Problem | water-and-jug-problem
+- [x] 0367 Valid Perfect Square | valid-perfect-square
+- [x] 0368 Largest Divisible Subset | largest-divisible-subset
+- [x] 0371 Sum of Two Integers | sum-of-two-integers
+- [x] 0372 Super Pow | super-pow
+- [x] 0373 Find K Pairs with Smallest Sums | find-k-pairs-with-smallest-sums
+- [x] 0374 Guess Number Higher or Lower | guess-number-higher-or-lower
+- [x] 0375 Guess Number Higher or Lower II | guess-number-higher-or-lower-ii
+- [x] 0376 Wiggle Subsequence | wiggle-subsequence
+- [x] 0377 Combination Sum IV | combination-sum-iv
+- [x] 0378 Kth Smallest Element in a Sorted Matrix | kth-smallest-element-in-a-sorted-matrix
+- [x] 0380 Insert Delete GetRandom O(1) | insert-delete-getrandom-o1
+- [x] 0381 Insert Delete GetRandom O(1) - Duplicates allowed | insert-delete-getrandom-o1-duplicates-allowed
+- [x] 0382 Linked List Random Node | linked-list-random-node
+- [x] 0383 Ransom Note | ransom-note
+- [x] 0384 Shuffle an Array | shuffle-an-array
+- [x] 0385 Mini Parser | mini-parser
+- [x] 0386 Lexicographical Numbers | lexicographical-numbers
+- [x] 0387 First Unique Character in a String | first-unique-character-in-a-string
+- [x] 0388 Longest Absolute File Path | longest-absolute-file-path
+- [x] 0389 Find the Difference | find-the-difference
+- [x] 0390 Elimination Game | elimination-game
+- [x] 0391 Perfect Rectangle | perfect-rectangle
+- [x] 0392 Is Subsequence | is-subsequence
+- [x] 0393 UTF-8 Validation | utf-8-validation
+- [x] 0394 Decode String | decode-string
+- [x] 0395 Longest Substring with At Least K Repeating Characters | longest-substring-with-at-least-k-repeating-characters
+- [x] 0396 Rotate Function | rotate-function
+- [x] 0397 Integer Replacement | integer-replacement
+- [x] 0398 Random Pick Index | random-pick-index
+- [x] 0399 Evaluate Division | evaluate-division
+- [x] 0400 Nth Digit | nth-digit
+- [x] 0401 Binary Watch | binary-watch
+- [x] 0402 Remove K Digits | remove-k-digits
+- [x] 0403 Frog Jump | frog-jump
+- [x] 0404 Sum of Left Leaves | sum-of-left-leaves
+- [x] 0405 Convert a Number to Hexadecimal | convert-a-number-to-hexadecimal
+- [x] 0406 Queue Reconstruction by Height | queue-reconstruction-by-height
+- [x] 0407 Trapping Rain Water II | trapping-rain-water-ii
+- [x] 0409 Longest Palindrome | longest-palindrome
+- [x] 0410 Split Array Largest Sum | split-array-largest-sum
+- [x] 0412 Fizz Buzz | fizz-buzz
+- [x] 0413 Arithmetic Slices | arithmetic-slices
+- [x] 0414 Third Maximum Number | third-maximum-number
+- [x] 0415 Add Strings | add-strings
+- [x] 0416 Partition Equal Subset Sum | partition-equal-subset-sum
+- [x] 0417 Pacific Atlantic Water Flow | pacific-atlantic-water-flow
+- [x] 0419 Battleships in a Board | battleships-in-a-board
+- [x] 0420 Strong Password Checker | strong-password-checker
+- [x] 0421 Maximum XOR of Two Numbers in an Array | maximum-xor-of-two-numbers-in-an-array
+- [x] 0423 Reconstruct Original Digits from English | reconstruct-original-digits-from-english
+- [x] 0424 Longest Repeating Character Replacement | longest-repeating-character-replacement
+- [x] 0427 Construct Quad Tree | construct-quad-tree
+- [x] 0429 N-ary Tree Level Order Traversal | n-ary-tree-level-order-traversal
+- [x] 0430 Flatten a Multilevel Doubly Linked List | flatten-a-multilevel-doubly-linked-list
+- [x] 0432 All O`one Data Structure | all-oone-data-structure
+- [x] 0433 Minimum Genetic Mutation | minimum-genetic-mutation
+- [x] 0434 Number of Segments in a String | number-of-segments-in-a-string
+- [x] 0435 Non-overlapping Intervals | non-overlapping-intervals
+- [x] 0437 Path Sum III | path-sum-iii
+- [x] 0438 Find All Anagrams in a String | find-all-anagrams-in-a-string
+- [x] 0440 K-th Smallest in Lexicographical Order | k-th-smallest-in-lexicographical-order
+- [x] 0441 Arranging Coins | arranging-coins
+- [x] 0442 Find All Duplicates in an Array | find-all-duplicates-in-an-array
+- [x] 0443 String Compression | string-compression
+- [x] 0445 Add Two Numbers II | add-two-numbers-ii
+- [x] 0446 Arithmetic Slices II - Subsequence | arithmetic-slices-ii-subsequence
+- [x] 0447 Number of Boomerangs | number-of-boomerangs
+- [x] 0448 Find All Numbers Disappeared in an Array | find-all-numbers-disappeared-in-an-array
+- [x] 0449 Serialize and Deserialize BST | serialize-and-deserialize-bst
+- [x] 0450 Delete Node in a BST | delete-node-in-a-bst
+- [x] 0451 Sort Characters By Frequency | sort-characters-by-frequency
+- [x] 0452 Minimum Number of Arrows to Burst Balloons | minimum-number-of-arrows-to-burst-balloons
+- [x] 0453 Minimum Moves to Equal Array Elements | minimum-moves-to-equal-array-elements
+- [x] 0454 4Sum II | 4sum-ii
+- [x] 0455 Assign Cookies | assign-cookies
+- [x] 0456 132 Pattern | 132-pattern
+- [x] 0457 Circular Array Loop | circular-array-loop
+- [x] 0458 Poor Pigs | poor-pigs
+- [x] 0459 Repeated Substring Pattern | repeated-substring-pattern
+- [x] 0460 LFU Cache | lfu-cache
+- [x] 0461 Hamming Distance | hamming-distance
+- [x] 0462 Minimum Moves to Equal Array Elements II | minimum-moves-to-equal-array-elements-ii
+- [x] 0463 Island Perimeter | island-perimeter
+- [x] 0464 Can I Win | can-i-win
+- [x] 0466 Count The Repetitions | count-the-repetitions
+- [x] 0467 Unique Substrings in Wraparound String | unique-substrings-in-wraparound-string
+- [x] 0468 Validate IP Address | validate-ip-address
+- [x] 0470 Implement Rand10() Using Rand7() | implement-rand10-using-rand7
+- [x] 0472 Concatenated Words | concatenated-words
+- [x] 0473 Matchsticks to Square | matchsticks-to-square
+- [x] 0474 Ones and Zeroes | ones-and-zeroes
+- [x] 0475 Heaters | heaters
+- [x] 0476 Number Complement | number-complement
+- [x] 0477 Total Hamming Distance | total-hamming-distance
+- [x] 0478 Generate Random Point in a Circle | generate-random-point-in-a-circle
+- [x] 0479 Largest Palindrome Product | largest-palindrome-product
+- [x] 0480 Sliding Window Median | sliding-window-median
+- [x] 0481 Magical String | magical-string
+- [x] 0482 License Key Formatting | license-key-formatting
+- [x] 0483 Smallest Good Base | smallest-good-base
+- [x] 0485 Max Consecutive Ones | max-consecutive-ones
+- [x] 0486 Predict the Winner | predict-the-winner
+- [x] 0488 Zuma Game | zuma-game
+- [x] 0491 Non-decreasing Subsequences | non-decreasing-subsequences
+- [x] 0492 Construct the Rectangle | construct-the-rectangle
+- [x] 0493 Reverse Pairs | reverse-pairs
+- [x] 0494 Target Sum | target-sum
+- [x] 0495 Teemo Attacking | teemo-attacking
+- [x] 0496 Next Greater Element I | next-greater-element-i
+- [x] 0497 Random Point in Non-overlapping Rectangles | random-point-in-non-overlapping-rectangles
+- [x] 0498 Diagonal Traverse | diagonal-traverse
+- [x] 0500 Keyboard Row | keyboard-row
+- [x] 0501 Find Mode in Binary Search Tree | find-mode-in-binary-search-tree
+- [x] 0502 IPO | ipo
+- [x] 0503 Next Greater Element II | next-greater-element-ii
+- [x] 0504 Base 7 | base-7
+- [x] 0506 Relative Ranks | relative-ranks
+- [x] 0507 Perfect Number | perfect-number
+- [x] 0508 Most Frequent Subtree Sum | most-frequent-subtree-sum
+- [x] 0509 Fibonacci Number | fibonacci-number
+- [x] 0511 Game Play Analysis I | game-play-analysis-i
+- [x] 0513 Find Bottom Left Tree Value | find-bottom-left-tree-value
+- [x] 0514 Freedom Trail | freedom-trail
+- [x] 0515 Find Largest Value in Each Tree Row | find-largest-value-in-each-tree-row
+- [x] 0516 Longest Palindromic Subsequence | longest-palindromic-subsequence
+- [x] 0517 Super Washing Machines | super-washing-machines
+- [x] 0518 Coin Change II | coin-change-ii
+- [x] 0519 Random Flip Matrix | random-flip-matrix
+- [x] 0520 Detect Capital | detect-capital
+- [x] 0521 Longest Uncommon Subsequence I | longest-uncommon-subsequence-i
+- [x] 0522 Longest Uncommon Subsequence II | longest-uncommon-subsequence-ii
+- [x] 0523 Continuous Subarray Sum | continuous-subarray-sum
+- [x] 0524 Longest Word in Dictionary through Deleting | longest-word-in-dictionary-through-deleting
+- [x] 0525 Contiguous Array | contiguous-array
+- [x] 0526 Beautiful Arrangement | beautiful-arrangement
+- [x] 0528 Random Pick with Weight | random-pick-with-weight
+- [x] 0529 Minesweeper | minesweeper
+- [x] 0530 Minimum Absolute Difference in BST | minimum-absolute-difference-in-bst
+- [x] 0532 K-diff Pairs in an Array | k-diff-pairs-in-an-array
+- [x] 0535 Encode and Decode TinyURL | encode-and-decode-tinyurl
+- [x] 0537 Complex Number Multiplication | complex-number-multiplication
+- [x] 0538 Convert BST to Greater Tree | convert-bst-to-greater-tree
+- [x] 0539 Minimum Time Difference | minimum-time-difference
+- [x] 0540 Single Element in a Sorted Array | single-element-in-a-sorted-array
+- [x] 0541 Reverse String II | reverse-string-ii
+- [x] 0542 01 Matrix | 01-matrix
+- [x] 0543 Diameter of Binary Tree | diameter-of-binary-tree
+- [x] 0546 Remove Boxes | remove-boxes
+- [x] 0547 Number of Provinces | number-of-provinces
+- [x] 0550 Game Play Analysis IV | game-play-analysis-iv
+- [x] 0551 Student Attendance Record I | student-attendance-record-i
+- [x] 0552 Student Attendance Record II | student-attendance-record-ii
+- [x] 0553 Optimal Division | optimal-division
+- [x] 0554 Brick Wall | brick-wall
+- [x] 0556 Next Greater Element III | next-greater-element-iii
+- [x] 0557 Reverse Words in a String III | reverse-words-in-a-string-iii
+- [x] 0558 Logical OR of Two Binary Grids Represented as Quad-Trees | logical-or-of-two-binary-grids-represented-as-quad-trees
+- [x] 0559 Maximum Depth of N-ary Tree | maximum-depth-of-n-ary-tree
+- [x] 0560 Subarray Sum Equals K | subarray-sum-equals-k
+- [x] 0561 Array Partition | array-partition
+- [x] 0563 Binary Tree Tilt | binary-tree-tilt
+- [x] 0564 Find the Closest Palindrome | find-the-closest-palindrome
+- [x] 0565 Array Nesting | array-nesting
+- [x] 0566 Reshape the Matrix | reshape-the-matrix
+- [x] 0567 Permutation in String | permutation-in-string
+- [x] 0570 Managers with at Least 5 Direct Reports | managers-with-at-least-5-direct-reports
+- [x] 0572 Subtree of Another Tree | subtree-of-another-tree
+- [x] 0575 Distribute Candies | distribute-candies
+- [x] 0576 Out of Boundary Paths | out-of-boundary-paths
+- [x] 0577 Employee Bonus | employee-bonus
+- [x] 0581 Shortest Unsorted Continuous Subarray | shortest-unsorted-continuous-subarray
+- [x] 0583 Delete Operation for Two Strings | delete-operation-for-two-strings
+- [x] 0584 Find Customer Referee | find-customer-referee
+- [x] 0585 Investments in 2016 | investments-in-2016
+- [x] 0586 Customer Placing the Largest Number of Orders | customer-placing-the-largest-number-of-orders
+- [x] 0587 Erect the Fence | erect-the-fence
+- [x] 0589 N-ary Tree Preorder Traversal | n-ary-tree-preorder-traversal
+- [x] 0590 N-ary Tree Postorder Traversal | n-ary-tree-postorder-traversal
+- [x] 0591 Tag Validator | tag-validator
+- [x] 0592 Fraction Addition and Subtraction | fraction-addition-and-subtraction
+- [x] 0593 Valid Square | valid-square
+- [x] 0594 Longest Harmonious Subsequence | longest-harmonious-subsequence
+- [x] 0595 Big Countries | big-countries
+- [x] 0596 Classes With at Least 5 Students | classes-with-at-least-5-students
+- [x] 0598 Range Addition II | range-addition-ii
+- [x] 0599 Minimum Index Sum of Two Lists | minimum-index-sum-of-two-lists
+- [x] 0600 Non-negative Integers without Consecutive Ones | non-negative-integers-without-consecutive-ones
+- [x] 0601 Human Traffic of Stadium | human-traffic-of-stadium
+- [x] 0602 Friend Requests II: Who Has the Most Friends | friend-requests-ii-who-has-the-most-friends
+- [x] 0605 Can Place Flowers | can-place-flowers
+- [x] 0606 Construct String from Binary Tree | construct-string-from-binary-tree
+- [x] 0607 Sales Person | sales-person
+- [x] 0608 Tree Node | tree-node
+- [x] 0609 Find Duplicate File in System | find-duplicate-file-in-system
+- [x] 0610 Triangle Judgement | triangle-judgement
+- [x] 0611 Valid Triangle Number | valid-triangle-number
+- [x] 0617 Merge Two Binary Trees | merge-two-binary-trees
+- [x] 0619 Biggest Single Number | biggest-single-number
+- [x] 0620 Not Boring Movies | not-boring-movies
+- [x] 0621 Task Scheduler | task-scheduler
+- [x] 0622 Design Circular Queue | design-circular-queue
+- [x] 0623 Add One Row to Tree | add-one-row-to-tree
+- [x] 0624 Maximum Distance in Arrays | maximum-distance-in-arrays
+- [x] 0626 Exchange Seats | exchange-seats
+- [x] 0627 Swap Salary | swap-salary
+- [x] 0628 Maximum Product of Three Numbers | maximum-product-of-three-numbers
+- [x] 0629 K Inverse Pairs Array | k-inverse-pairs-array
+- [x] 0630 Course Schedule III | course-schedule-iii
+- [x] 0632 Smallest Range Covering Elements from K Lists | smallest-range-covering-elements-from-k-lists
+- [x] 0633 Sum of Square Numbers | sum-of-square-numbers
+- [x] 0636 Exclusive Time of Functions | exclusive-time-of-functions
+- [x] 0637 Average of Levels in Binary Tree | average-of-levels-in-binary-tree
+- [x] 0638 Shopping Offers | shopping-offers
+- [x] 0639 Decode Ways II | decode-ways-ii
+- [x] 0640 Solve the Equation | solve-the-equation
+- [x] 0641 Design Circular Deque | design-circular-deque
+- [x] 0643 Maximum Average Subarray I | maximum-average-subarray-i
+- [x] 0645 Set Mismatch | set-mismatch
+- [x] 0646 Maximum Length of Pair Chain | maximum-length-of-pair-chain
+- [x] 0647 Palindromic Substrings | palindromic-substrings
+- [x] 0648 Replace Words | replace-words
+- [x] 0649 Dota2 Senate | dota2-senate
+- [x] 0650 2 Keys Keyboard | 2-keys-keyboard
+- [x] 0652 Find Duplicate Subtrees | find-duplicate-subtrees
+- [x] 0653 Two Sum IV - Input is a BST | two-sum-iv-input-is-a-bst
+- [x] 0654 Maximum Binary Tree | maximum-binary-tree
+- [x] 0655 Print Binary Tree | print-binary-tree
+- [x] 0657 Robot Return to Origin | robot-return-to-origin
+- [x] 0658 Find K Closest Elements | find-k-closest-elements
+- [x] 0659 Split Array into Consecutive Subsequences | split-array-into-consecutive-subsequences
+- [x] 0661 Image Smoother | image-smoother
+- [x] 0662 Maximum Width of Binary Tree | maximum-width-of-binary-tree
+- [x] 0664 Strange Printer | strange-printer
+- [x] 0665 Non-decreasing Array | non-decreasing-array
+- [x] 0667 Beautiful Arrangement II | beautiful-arrangement-ii
+- [x] 0668 Kth Smallest Number in Multiplication Table | kth-smallest-number-in-multiplication-table
+- [x] 0669 Trim a Binary Search Tree | trim-a-binary-search-tree
+- [x] 0670 Maximum Swap | maximum-swap
+- [x] 0671 Second Minimum Node In a Binary Tree | second-minimum-node-in-a-binary-tree
+- [x] 0672 Bulb Switcher II | bulb-switcher-ii
+- [x] 0673 Number of Longest Increasing Subsequence | number-of-longest-increasing-subsequence
+- [x] 0674 Longest Continuous Increasing Subsequence | longest-continuous-increasing-subsequence
+- [x] 0675 Cut Off Trees for Golf Event | cut-off-trees-for-golf-event
+- [x] 0676 Implement Magic Dictionary | implement-magic-dictionary
+- [x] 0677 Map Sum Pairs | map-sum-pairs
+- [x] 0678 Valid Parenthesis String | valid-parenthesis-string
+- [x] 0679 24 Game | 24-game
+- [x] 0680 Valid Palindrome II | valid-palindrome-ii
+- [x] 0682 Baseball Game | baseball-game
+- [x] 0684 Redundant Connection | redundant-connection
+- [x] 0685 Redundant Connection II | redundant-connection-ii
+- [x] 0686 Repeated String Match | repeated-string-match
+- [x] 0687 Longest Univalue Path | longest-univalue-path
+- [x] 0688 Knight Probability in Chessboard | knight-probability-in-chessboard
+- [x] 0689 Maximum Sum of 3 Non-Overlapping Subarrays | maximum-sum-of-3-non-overlapping-subarrays
+- [x] 0690 Employee Importance | employee-importance
+- [x] 0691 Stickers to Spell Word | stickers-to-spell-word
+- [x] 0692 Top K Frequent Words | top-k-frequent-words
+- [x] 0693 Binary Number with Alternating Bits | binary-number-with-alternating-bits
+- [x] 0695 Max Area of Island | max-area-of-island
+- [x] 0696 Count Binary Substrings | count-binary-substrings
+- [x] 0697 Degree of an Array | degree-of-an-array
+- [x] 0698 Partition to K Equal Sum Subsets | partition-to-k-equal-sum-subsets
+- [x] 0699 Falling Squares | falling-squares
+- [x] 0700 Search in a Binary Search Tree | search-in-a-binary-search-tree
+- [x] 0701 Insert into a Binary Search Tree | insert-into-a-binary-search-tree
+- [x] 0703 Kth Largest Element in a Stream | kth-largest-element-in-a-stream
+- [x] 0704 Binary Search | binary-search
+- [x] 0705 Design HashSet | design-hashset
+- [x] 0706 Design HashMap | design-hashmap
+- [x] 0707 Design Linked List | design-linked-list
+- [x] 0709 To Lower Case | to-lower-case
+- [x] 0710 Random Pick with Blacklist | random-pick-with-blacklist
+- [x] 0712 Minimum ASCII Delete Sum for Two Strings | minimum-ascii-delete-sum-for-two-strings
+- [x] 0713 Subarray Product Less Than K | subarray-product-less-than-k
+- [x] 0714 Best Time to Buy and Sell Stock with Transaction Fee | best-time-to-buy-and-sell-stock-with-transaction-fee
+- [x] 0715 Range Module | range-module
+- [x] 0717 1-bit and 2-bit Characters | 1-bit-and-2-bit-characters
+- [x] 0718 Maximum Length of Repeated Subarray | maximum-length-of-repeated-subarray
+- [x] 0719 Find K-th Smallest Pair Distance | find-k-th-smallest-pair-distance
+- [x] 0720 Longest Word in Dictionary | longest-word-in-dictionary
+- [x] 0721 Accounts Merge | accounts-merge
+- [x] 0722 Remove Comments | remove-comments
+- [x] 0724 Find Pivot Index | find-pivot-index
+- [x] 0725 Split Linked List in Parts | split-linked-list-in-parts
+- [x] 0726 Number of Atoms | number-of-atoms
+- [x] 0728 Self Dividing Numbers | self-dividing-numbers
+- [x] 0729 My Calendar I | my-calendar-i
+- [x] 0730 Count Different Palindromic Subsequences | count-different-palindromic-subsequences
+- [x] 0731 My Calendar II | my-calendar-ii
+- [x] 0732 My Calendar III | my-calendar-iii
+- [x] 0733 Flood Fill | flood-fill
+- [x] 0735 Asteroid Collision | asteroid-collision
+- [x] 0736 Parse Lisp Expression | parse-lisp-expression
+- [x] 0738 Monotone Increasing Digits | monotone-increasing-digits
+- [x] 0739 Daily Temperatures | daily-temperatures
+- [x] 0740 Delete and Earn | delete-and-earn
+- [x] 0741 Cherry Pickup | cherry-pickup
+- [x] 0743 Network Delay Time | network-delay-time
+- [x] 0744 Find Smallest Letter Greater Than Target | find-smallest-letter-greater-than-target
+- [x] 0745 Prefix and Suffix Search | prefix-and-suffix-search
+- [x] 0746 Min Cost Climbing Stairs | min-cost-climbing-stairs
+- [x] 0747 Largest Number At Least Twice of Others | largest-number-at-least-twice-of-others
+- [x] 0748 Shortest Completing Word | shortest-completing-word
+- [x] 0749 Contain Virus | contain-virus
+- [x] 0752 Open the Lock | open-the-lock
+- [x] 0753 Cracking the Safe | cracking-the-safe
+- [x] 0754 Reach a Number | reach-a-number
+- [x] 0756 Pyramid Transition Matrix | pyramid-transition-matrix
+- [x] 0757 Set Intersection Size At Least Two | set-intersection-size-at-least-two
+- [x] 0761 Special Binary String | special-binary-string
+- [x] 0762 Prime Number of Set Bits in Binary Representation | prime-number-of-set-bits-in-binary-representation
+- [x] 0763 Partition Labels | partition-labels
+- [x] 0764 Largest Plus Sign | largest-plus-sign
+- [x] 0765 Couples Holding Hands | couples-holding-hands
+- [x] 0766 Toeplitz Matrix | toeplitz-matrix
+- [x] 0767 Reorganize String | reorganize-string
+- [x] 0768 Max Chunks To Make Sorted II | max-chunks-to-make-sorted-ii
+- [x] 0769 Max Chunks To Make Sorted | max-chunks-to-make-sorted
+- [x] 0770 Basic Calculator IV | basic-calculator-iv
+- [x] 0771 Jewels and Stones | jewels-and-stones
+- [x] 0773 Sliding Puzzle | sliding-puzzle
+- [x] 0775 Global and Local Inversions | global-and-local-inversions
+- [x] 0777 Swap Adjacent in LR String | swap-adjacent-in-lr-string
+- [x] 0778 Swim in Rising Water | swim-in-rising-water
+- [x] 0779 K-th Symbol in Grammar | k-th-symbol-in-grammar
+- [x] 0780 Reaching Points | reaching-points
+- [x] 0781 Rabbits in Forest | rabbits-in-forest
+- [x] 0782 Transform to Chessboard | transform-to-chessboard
+- [x] 0783 Minimum Distance Between BST Nodes | minimum-distance-between-bst-nodes
+- [x] 0784 Letter Case Permutation | letter-case-permutation
+- [x] 0785 Is Graph Bipartite? | is-graph-bipartite
+- [x] 0786 K-th Smallest Prime Fraction | k-th-smallest-prime-fraction
+- [x] 0787 Cheapest Flights Within K Stops | cheapest-flights-within-k-stops
+- [x] 0788 Rotated Digits | rotated-digits
+- [x] 0789 Escape The Ghosts | escape-the-ghosts
+- [x] 0790 Domino and Tromino Tiling | domino-and-tromino-tiling
+- [x] 0791 Custom Sort String | custom-sort-string
+- [x] 0792 Number of Matching Subsequences | number-of-matching-subsequences
+- [x] 0793 Preimage Size of Factorial Zeroes Function | preimage-size-of-factorial-zeroes-function
+- [x] 0794 Valid Tic-Tac-Toe State | valid-tic-tac-toe-state
+- [x] 0795 Number of Subarrays with Bounded Maximum | number-of-subarrays-with-bounded-maximum
+- [x] 0796 Rotate String | rotate-string
+- [x] 0797 All Paths From Source to Target | all-paths-from-source-to-target
+- [x] 0798 Smallest Rotation with Highest Score | smallest-rotation-with-highest-score
+- [x] 0799 Champagne Tower | champagne-tower
+- [x] 0801 Minimum Swaps To Make Sequences Increasing | minimum-swaps-to-make-sequences-increasing
+- [x] 0802 Find Eventual Safe States | find-eventual-safe-states
+- [x] 0803 Bricks Falling When Hit | bricks-falling-when-hit
+- [x] 0804 Unique Morse Code Words | unique-morse-code-words
+- [x] 0805 Split Array With Same Average | split-array-with-same-average
+- [x] 0806 Number of Lines To Write String | number-of-lines-to-write-string
+- [x] 0807 Max Increase to Keep City Skyline | max-increase-to-keep-city-skyline
+- [x] 0808 Soup Servings | soup-servings
+- [x] 0809 Expressive Words | expressive-words
+- [x] 0810 Chalkboard XOR Game | chalkboard-xor-game
+- [x] 0811 Subdomain Visit Count | subdomain-visit-count
+- [x] 0812 Largest Triangle Area | largest-triangle-area
+- [x] 0813 Largest Sum of Averages | largest-sum-of-averages
+- [x] 0814 Binary Tree Pruning | binary-tree-pruning
+- [x] 0815 Bus Routes | bus-routes
+- [x] 0816 Ambiguous Coordinates | ambiguous-coordinates
+- [x] 0817 Linked List Components | linked-list-components
+- [x] 0818 Race Car | race-car
+- [x] 0819 Most Common Word | most-common-word
+- [x] 0820 Short Encoding of Words | short-encoding-of-words
+- [x] 0821 Shortest Distance to a Character | shortest-distance-to-a-character
+- [x] 0822 Card Flipping Game | card-flipping-game
+- [x] 0823 Binary Trees With Factors | binary-trees-with-factors
+- [x] 0824 Goat Latin | goat-latin
+- [x] 0825 Friends Of Appropriate Ages | friends-of-appropriate-ages
+- [x] 0826 Most Profit Assigning Work | most-profit-assigning-work
+- [x] 0827 Making A Large Island | making-a-large-island
+- [x] 0828 Count Unique Characters of All Substrings of a Given String | count-unique-characters-of-all-substrings-of-a-given-string
+- [x] 0829 Consecutive Numbers Sum | consecutive-numbers-sum
+- [x] 0830 Positions of Large Groups | positions-of-large-groups
+- [x] 0831 Masking Personal Information | masking-personal-information
+- [x] 0832 Flipping an Image | flipping-an-image
+- [x] 0833 Find And Replace in String | find-and-replace-in-string
+- [x] 0834 Sum of Distances in Tree | sum-of-distances-in-tree
+- [x] 0835 Image Overlap | image-overlap
+- [x] 0836 Rectangle Overlap | rectangle-overlap
+- [x] 0837 New 21 Game | new-21-game
+- [x] 0838 Push Dominoes | push-dominoes
+- [x] 0839 Similar String Groups | similar-string-groups
+- [x] 0840 Magic Squares In Grid | magic-squares-in-grid
+- [x] 0841 Keys and Rooms | keys-and-rooms
+- [x] 0842 Split Array into Fibonacci Sequence | split-array-into-fibonacci-sequence
+- [x] 0843 Guess the Word | guess-the-word
+- [x] 0844 Backspace String Compare | backspace-string-compare
+- [x] 0845 Longest Mountain in Array | longest-mountain-in-array
+- [x] 0846 Hand of Straights | hand-of-straights
+- [x] 0847 Shortest Path Visiting All Nodes | shortest-path-visiting-all-nodes
+- [x] 0848 Shifting Letters | shifting-letters
+- [x] 0849 Maximize Distance to Closest Person | maximize-distance-to-closest-person
+- [x] 0850 Rectangle Area II | rectangle-area-ii
+- [x] 0851 Loud and Rich | loud-and-rich
+- [x] 0852 Peak Index in a Mountain Array | peak-index-in-a-mountain-array
+- [x] 0853 Car Fleet | car-fleet
+- [x] 0854 K-Similar Strings | k-similar-strings
+- [x] 0855 Exam Room | exam-room
+- [x] 0856 Score of Parentheses | score-of-parentheses
+- [x] 0857 Minimum Cost to Hire K Workers | minimum-cost-to-hire-k-workers
+- [x] 0858 Mirror Reflection | mirror-reflection
+- [x] 0859 Buddy Strings | buddy-strings
+- [x] 0860 Lemonade Change | lemonade-change
+- [x] 0861 Score After Flipping Matrix | score-after-flipping-matrix
+- [x] 0862 Shortest Subarray with Sum at Least K | shortest-subarray-with-sum-at-least-k
+- [x] 0863 All Nodes Distance K in Binary Tree | all-nodes-distance-k-in-binary-tree
+- [x] 0864 Shortest Path to Get All Keys | shortest-path-to-get-all-keys
+- [x] 0865 Smallest Subtree with all the Deepest Nodes | smallest-subtree-with-all-the-deepest-nodes
+- [x] 0866 Prime Palindrome | prime-palindrome
 - [ ] 0867 Transpose Matrix | transpose-matrix
 - [ ] 0868 Binary Gap | binary-gap
 - [ ] 0869 Reordered Power of 2 | reordered-power-of-2
